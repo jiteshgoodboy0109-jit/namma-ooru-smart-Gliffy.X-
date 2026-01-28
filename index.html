@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Namma Ooru Smart Solutions</title>
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&family=Noto+Sans+Tamil:wght@700;900&family=Outfit:wght@800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" media="print" onload="this.media='all'">
+  <link rel="preload" as="image" href="/home.webp" media="(min-width: 769px)" fetchpriority="high" type="image/webp" />
+  <link rel="preload" as="image" href="/home-m.webp" media="(max-width: 768px)" fetchpriority="high"
+    type="image/webp" />
+  <script src="/products.js" defer></script>
+</head>
+
+<body class="bg-white overflow-x-hidden">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then(reg => console.log('SW registered'))
+          .catch(err => console.log('SW registration failed'));
+      });
+    }
+  </script>
+</body>
+
+</html>

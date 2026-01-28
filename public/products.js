@@ -1,0 +1,608 @@
+// =========================================================================
+// 🛒 HOW TO ADD A NEW PRODUCT
+// =========================================================================
+// 1. Copy the "TEMPLATE" section below.
+// 2. Paste it inside the "window.PRODUCTS" list (after the last product).
+// 3. Change the details (id, name, price, etc.).
+// 4. Save this file!
+// =========================================================================
+
+/*
+    {
+        id: 'unique-product-id-no-spaces',      // 🆔 Unique ID (e.g. 'iphone-15')
+        name: 'Product Name',                   // 🏷️ Display Name
+        category: CATEGORIES.WATER_PURIFIER,    // 📂 Category (Pick from CATEGORIES list below)
+        price: '₹20,000',                       // 💰 Selling Price
+        mrp: '₹25,000',                         // 🏷️ MRP (Original Price)
+        savings: '₹5,000',                      // 💸 Savings Amount
+        description: `Description here...`,     // 📝 Description (Key features, Warranty, etc.)
+        image: '/ASSETS/path-to-image.jpg',     // 🖼️ Main Image
+        images: [                               // 📸 Gallery Images (Optional)
+            '/ASSETS/path-to-image.jpg',
+            '/ASSETS/path-to-image-2.jpg'
+        ],
+        features: ['Feature 1', 'Feature 2'],   // ✨ Short highlights
+        specifications: {                       // ⚙️ Technical Specs
+            Capacity: '10L',
+            Warranty: '1 Year'
+        },
+        badges: ['Bestseller'],                 // 🏅 Badges (e.g. 'New', 'Sale')
+        rating: 4.5,                            // ⭐ Rating (0 to 5)
+        reviewCount: 10                         // 💬 Number of Reviews
+    },
+*/
+
+// Define Categories first for easy management
+const CATEGORIES = {
+    WATER_PURIFIER: 'Water Purifier',
+    WATER_SOFTENER: 'Water Softener',
+    INVERTER_BATTERY: 'Inverter & Battery',
+    HEAT_PUMP: 'Heat Pump Water Heater',
+    SOLAR_WATER_HEATER: 'Solar Water Heater',
+    CAMERA: 'Camera',
+    ROBOTIC_VACUUM: 'Robotic Vacuum Cleaner'
+};
+
+// Make categories available globally if needed
+window.CATEGORIES = CATEGORIES;
+
+window.PRODUCTS = [
+    // ========== WATER PURIFIERS ==========
+    {
+        id: 'aquaguard-aspire-nova',
+        name: 'Aquaguard Aspire Nova Ro+Uv 2x',
+        category: CATEGORIES.WATER_PURIFIER,
+        price: '₹22,000',
+        mrp: '₹26,000',
+        savings: '₹4,000',
+        description: `Aquaguard Aspire Nova Water Purifier
+
+Eureka Aspire Nova RO UV 2X 6.2 L Gravity Based Water Purifier | Mega Sediment Filter At No Extra Cost | (Black) .
+
+Warranty and Installation – Comes with a 1-year free warranty and includes complimentary installation.`,
+        image: '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1.webp',
+        images: [
+            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a11.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a111.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1111.webp'
+        ],
+        features: ['RO+UV 2X', '6.2L Capacity', 'Gravity Based'],
+        specifications: { Capacity: '6.2L', Type: 'Gravity Based', Warranty: '1 Year' },
+        badges: ['Bestseller', 'Free Installation'],
+        rating: 4.5,
+        reviewCount: 120
+    },
+    {
+        id: 'aquaguard-enrich-victor',
+        name: 'Aquaguard Enrich Victor Ro+Uv+Mc 2x',
+        category: CATEGORIES.WATER_PURIFIER,
+        price: '₹17,000',
+        mrp: '₹20,000',
+        savings: '₹3,000',
+        description: `Aquaguard Enrich Victor Ro+Uv+Mc 2x
+
+Eureka Vector ENRICH RO+UV+MC 2X Water Purifier | Suitable for all type of Borewell, Tanker & Municipal Water | Saves More Than 60% water | Compact & Ergonic Design | 30X Impurity Removal.
+Ample Storage: Enjoy a generous 6.2 Litres of Storage with a Sleek, Compact & Mordern Design.
+LED Indicators: To let you know the Purifier is On/Off, Full Tank Indicator and Service Indicator.
+Compact and Ergonomic: Sleek and space-saving, this purifier boasts a compact, ergonomic design that seamlessly integrates into your living space.`,
+        image: '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21.jpeg',
+        images: [
+            '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21.jpeg',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a22.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a23.jpeg'
+        ],
+        features: ['RO+UV+MC', '6.2L Storage', 'Eco-friendly'],
+        specifications: { Capacity: '6.2L', Type: 'RO+UV+MC', Warranty: '1 Year' },
+        badges: ['Bestseller', 'Smart Choice'],
+        rating: 4.8,
+        reviewCount: 95
+    },
+    {
+        id: 'aquaguard-blaze-insta-hot',
+        name: 'Aquaguard Blaze Insta Hot & Ambient',
+        category: CATEGORIES.WATER_PURIFIER,
+        price: '₹28,500',
+        mrp: '₹37,000',
+        savings: '₹8,500',
+        description: `Aquaguard Blaze Insta Hot & Ambient
+
+Aquaguard Blaze Insta Hot & Ambient Water Purifier | Hot and ambient water available instantly.
+Top highlights:
+- Special Feature: Automatic Shut-Off
+- Capacity: 5.6 litres
+- Maximum Flow Rate: 15 Liters Per Hour
+- Operating Pressure Range: 3 Kilograms Per Square Centimeter
+- Upper Temperature Rating: 40 Degrees Celsius
+- Material: Stainless Steel, Polypropylene, Acrylonitrile Butadiene Styrene
+
+Included Components: Water Purifier (Input pipe, Diverter valve & Warranty Card, Reject pipe).`,
+        image: '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a31.webp',
+        images: [
+            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a31.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a32.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a33.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a34.webp'
+        ],
+        features: ['Insta Hot Water', 'Automatic Shut-Off', '5.6L Capacity'],
+        specifications: { Capacity: '5.6L', 'Flow Rate': '15 LPH', 'Temp Rating': '40°C' },
+        badges: ['Hot & Ambient', 'Premium', 'Fast Heating'],
+        rating: 4.9,
+        reviewCount: 20
+    },
+    {
+        id: 'aquaguard-designo-nxt',
+        name: 'Aquaguard Designo NXT Under Sink RO',
+        category: CATEGORIES.WATER_PURIFIER,
+        price: '₹31,500',
+        mrp: '₹39,500',
+        savings: '₹8,000',
+        description: `Aquaguard Designo NXT Under Shink Ro
+
+Aquaguard Designo NXT 9-Stage Under The Counter Water Purifier | Active Copper+RO+UV Tech | 7L Storage | Inbuilt Pressure Pump | Suitable for Tanker, Borewell & Municipal Water.
+
+Key Features:
+- 3-in-1 Patented Active Copper Technology: Infuses the right amount of copper from the first drop (As per BIS norms).
+- Clean Free Technology: Suitable for all age groups.
+- Free Service Plan (worth ₹2000): Includes free installation, 1 free maintenance visit, and unlimited repair visits within 1 year.
+- Certifications: NABL and WQIA certified for reliability and performance.`,
+        image: '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a41.webp',
+        images: [
+            '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a41.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a42.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a43.webp'
+        ],
+        features: ['Under Sink', 'Active Copper', '9-Stage Purification'],
+        specifications: { Capacity: '7L Storage', Type: 'Under Counter', Tech: 'RO+UV+Copper' },
+        badges: ['NABL Certified', 'Free Service Plan', 'Premium'],
+        rating: 4.8,
+        reviewCount: 18
+    },
+    {
+        id: 'aquaguard-nova-ro-uv-ss',
+        name: 'Aquaguard Nova Ro+UV+SS',
+        category: CATEGORIES.WATER_PURIFIER,
+        price: '₹24,500',
+        mrp: '₹33,000',
+        savings: '₹8,500',
+        description: `Eureka NOVA WS RO+UV+UF+TA+ALKALINE+Stainless steel
+
+A fashionable purifier that comes with the dual purification of RO and UV along with double goodness of Copper and Zinc. Uses many filters to remove salts & microbes in multiple stages.
+Best suited for municipal water.
+
+Key Features:
+- 6.2 L Capacity: More the capacity, more the users can be served with drinking water.
+- Purification capacity: 1.5 liters per minute for a steady supply.
+- Sedi Shield, Particulate Filter, Chemi-Block, Taste Adjuster, Reverse Osmosis Cartridge, UV E boiling, Ultra Filtration, 2-in-1 Alkaline Boost.
+- Active Copper with Zinc Booster Cartridge & Mineral Magnet.
+
+Included: Water Purifier 1N, Installation Kit 1N, Warranty Card + QR Code 1N.`,
+        image: '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a51.webp',
+        images: [
+            '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a51.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a52.webp',
+            '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a53.webp'
+        ],
+        features: ['RO+UV+UF+TA', 'Alkaline+SS', '6.2L Storage'],
+        specifications: { Capacity: '6.2L', Rate: '1.5 L/min', Type: 'Wall/Table Mount' },
+        badges: ['Alkaline Boost', 'Stainless Steel', 'Copper+Zinc'],
+        rating: 4.7,
+        reviewCount: 15
+    },
+
+    // ========== WATER SOFTENERS ==========
+    {
+        id: 'aquaguard-aws-i-2500',
+        name: 'Aquaguard AWS I-2500 Water Softener',
+        category: CATEGORIES.WATER_SOFTENER,
+        price: '₹56,500',
+        mrp: '₹64,990',
+        savings: '₹8,490',
+        description: `Aquaguard Select AWS I-2500 Water Softener
+
+Fully automatic water softener for independent homes with advanced ionic transfer technology to soften hard water with flow rate support upto 2100 LPH. Get rid of hard water which may cause hair fall, dry itchy skin, and stains on tiles & bathroom fittings.
+
+Key Specifications:
+- Resin Volume: 25 liters
+- Max Input Hardness: 1900 ppm
+- Max Input Flow Rate: 2100 LPH
+- Dimensions: 112 cm (H) x 20 cm (D) x 20 cm (W)
+- Technology: Ionic-Transfer Technology
+- Regeneration: Fully Automatic Programmable (Time-based or Flow-based)
+- Salt Storage: 50 kg
+- Power: 18W (100-240V AC)
+
+Features:
+- Compact Design: Easy installation in homes.
+- Intelligent Control: Auto-selects regeneration.
+- LCD Display Panel: Shows current settings.
+- Auto Setting Lock: Retains settings during power cuts.`,
+        image: '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b11.webp',
+        images: [
+            '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b11.webp',
+            '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b12.webp',
+            '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b13.webp'
+        ],
+        features: ['2100 LPH Flow', 'Auto Regeneration', 'Ionic-Transfer'],
+        specifications: { Capacity: '25L Resin', Flow: '2100 LPH', Hardness: 'Max 1900 ppm' },
+        badges: ['Fully Automatic', 'High Capacity', 'Hard Water Solution'],
+        rating: 4.9,
+        reviewCount: 10
+    },
+    {
+        id: 'automatic-water-softener-1000l',
+        name: 'Fully Automatic Water Softener 1000L',
+        category: CATEGORIES.WATER_SOFTENER,
+        price: '₹59,500',
+        mrp: '₹69,990',
+        savings: '₹10,490',
+        description: `Fully Automatic Water Softener System (1000 Liters)
+
+Residential automatic water softener system designed to remove hardness (calcium, magnesium) from borewell or municipal water using ion exchange technology.
+
+Key Specifications:
+- Capacity: 1000 Liters/Day
+- Vessel Height: 48 inch
+- Material: FRP (Fiber Reinforced Plastic)
+- Automation Grade: Automatic
+- Voltage: 230 V
+- Usage: Domestic / Residential
+- Water Source: Suitable for Borewell Water
+
+How it works:
+Hard water enters the system, passes through resin beads which trap calcium and magnesium, and exchanges them for sodium/potassium, delivering soft water to your home.
+
+Included: Warranty 1 Year.`,
+        image: '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b21.webp',
+        images: [
+            '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b21.webp',
+            '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b22.webp',
+            '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b23.webp'
+        ],
+        features: ['1000L Capacity', 'Fully Automatic', 'Ion Exchange'],
+        specifications: { Capacity: '1000L', Type: 'Vertical', Height: '48 inch' },
+        badges: ['Borewell Special', 'Automatic', 'Soft Water'],
+        rating: 4.8,
+        reviewCount: 12
+    },
+
+    // ========== HOME INVERTERS ==========
+    {
+        id: 'luminous-1050-ups-150ah-battery',
+        name: '1050 UPS & 150Ah Battery Luminous Bin',
+        category: CATEGORIES.INVERTER_BATTERY,
+        price: '₹20,500',
+        mrp: '₹25,000',
+        savings: '₹4,500',
+        description: `1050 VA UPS with 150Ah Battery Combo - Luminous
+
+Complete power backup solution for your home.
+- Capacity: 1050 VA UPS
+- Battery: 150Ah Tubular Battery
+- Backup: Approx 60 minutes (at full load)
+
+Load Capacity:
+- 4 Fans
+- 6 LED Lights
+- 4 Tube Lights
+- 2 TVs
+- 1 Mobile Charger
+- Mixer Grinder (Mixi) can also be used
+
+Warranty:
+- Inverter: 3 Years
+- Battery: 5 Years
+
+Note: Installation and delivery charges are extra.`,
+        image: '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e11.webp',
+        images: [
+            '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e11.webp',
+            '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e12.webp',
+            '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e13.webp'
+        ],
+        features: ['1050 VA UPS', '150Ah Battery', 'High Load Capacity', 'Long Warranty'],
+        specifications: {
+            "Brand": "Luminous",
+            "Inverter Capacity": "1050 VA",
+            "Battery Capacity": "150 Ah",
+            "Inverter Warranty": "3 Years",
+            "Battery Warranty": "5 Years",
+            "Backup": "60 mins (Full Load)"
+        },
+        badges: ['Best Seller', 'Combo Offer', 'Long Warranty'],
+        rating: 4.7,
+        reviewCount: 25
+    },
+
+    {
+        id: 'exide-1050-ups-150ah-battery',
+        name: '1050UPS & 150Ah Battery Exide',
+        category: CATEGORIES.INVERTER_BATTERY,
+        price: '₹22,500',
+        mrp: '₹27,500',
+        savings: '₹5,000',
+        description: `1050VA UPS with 150Ah Battery Combo - Exide
+
+Power Backup Solution for Home & Office
+- Model: IPTT 1500 (Tubular Battery)
+- Capacity: 150Ah
+- Voltage: 12V
+- Backup: 2 to 14 Hours (depending on load)
+
+Load Capacity:
+- 4 Fans
+- 6 LED Lights
+- 4 Tube Lights
+- 2 TVs
+- 1 Mobile Charger
+- Mixer Grinder (Mixi) compatible
+
+Product Features:
+- Batteries specially designed for places with frequent power cuts.
+- Readily available factory-changed batteries reduce commissioning time.
+- Aesthetically designed with a low footprint to suit homes, offices, and business centers.
+- Ideal For: Double / Three bedroom house.
+- Country of Origin: Made in India.
+
+Warranty:
+- 2 Years Warranty (Installation & Delivery Free)
+- Battery Warranty: 3 Years`,
+        image: '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f11.webp',
+        images: [
+            '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f11.webp',
+            '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f12.webp',
+            '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f13.webp'
+        ],
+        features: ['1050 VA UPS', '150Ah Tubular Battery', 'Frequent Power Cut Design', 'Installation Free'],
+        specifications: {
+            "Brand": "Exide",
+            "Model": "IPTT 1500",
+            "Capacity": "150Ah",
+            "Type": "Tubular",
+            "Voltage": "12V",
+            "Warranty": "3 Years (Battery)",
+            "Origin": "India"
+        },
+        badges: ['Best Seller', 'Free Installation', 'Heavy Duty'],
+        rating: 4.8,
+        reviewCount: 30
+    },
+    {
+        id: 'luminous-optimus-1250-150ah-combo',
+        name: 'Luminous Optimus 1250 inverter & 150Ah Battery',
+        category: CATEGORIES.INVERTER_BATTERY,
+        price: '₹22,500',
+        mrp: '₹27,500',
+        savings: '₹5,000',
+        description: `Luminous Optimus 1250 inverter & 150Ah Battery 48m
+
+Charging current: User settable charging current between (8A-18A) for optimized performance.
+Optimized performance: User settable Output voltage between (200V-240V) to optimize between Longer Backup time and Performance.
+Fast battery charging: Low voltage battery charging begins from 95V and fast charging from 135V input supply voltage.
+Mode selector: Eco and UPS mode availability.
+
+Safety For Your Home:
+Complete safety for your home with protection features and alarms on short circuit, overload, Over temperature and low battery.
+
+Battery Supported:
+Supports all Battery types (Flat, Tubular and SMF) and all battery capacities (80Ah-220Ah).
+
+Informative LCD display:
+Smart LCD display with unique indication that displays backup and charging time, along with Mains On, Eco/UPS Mode.
+
+Battery Details (RC 18000 150 Ah):
+- Type: Recyclable tall tubular inverter battery with rugged construction
+- Water Level Indicators: 6
+- Nominal Voltage: 12V
+- Rated Capacity: 150 Ah
+- Dimensions: 502mm x 191mm x 440mm
+- Weight: 53.3 Kg (Filled)
+
+Inverter Compatibility: Designed for all types of power cut situation with high charge acceptance and low maintenance.
+Running Load: 1 fridge (250 liters), 1 LED TV 40", 3 fans, 2 tube light, 1 LED bulb.
+Warranty: 3 years on inverter battery.`,
+        image: '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11.webp',
+        images: [
+            '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11.webp',
+            '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g12.webp',
+            '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g13.webp'
+        ],
+        features: ['1250VA Inverter', '150Ah Tubular Battery', 'Fast Charging', 'LCD Display'],
+        specifications: {
+            "Inverter Capacity": "1250 VA",
+            "Battery Capacity": "150 Ah",
+            "Charging": "Fast Charging (8A-18A)",
+            "Warranty": "3 Years",
+            "Display": "Smart LCD"
+        },
+        badges: ['Combo Offer', 'Fast Charging', 'Best Seller'],
+        rating: 4.8,
+        reviewCount: 42
+    },
+    // ========== SOLAR OFF-GRID ==========
+    {
+        id: 'luminous-solar-1kva',
+        name: "LUMINOUS Solar 1KVA PCU",
+        category: CATEGORIES.SOLAR_WATER_HEATER,
+        price: "Contact for Price",
+        mrp: "₹10,499",
+        savings: "₹2,500",
+        description: "Off-Grid Solar PCU. Complete solar power control unit for home use.",
+        image: "/logo.png",
+        images: [
+            "/logo.png"
+        ],
+        features: ["1 KVA", "Off-Grid", "Solar PCU"],
+        specifications: {
+            "Capacity": "1 KVA",
+            "Type": "Off-Grid PCU",
+            "Efficiency": "92%",
+            "Warranty": "2 Years"
+        },
+        badges: ["Energy Independent", "Solar Ready", "Complete Solution"],
+        rating: 4,
+        reviewCount: 12
+    },
+    {
+        id: 'luminous-solar-2kva',
+        name: "LUMINOUS Solar 2KVA PCU",
+        category: CATEGORIES.SOLAR_WATER_HEATER,
+        price: "Contact for Price",
+        mrp: "₹10,499",
+        savings: "₹2,500",
+        description: "Off-Grid Solar PCU. Medium capacity for residential solar systems.",
+        image: "/logo.png",
+        images: [
+            "/logo.png"
+        ],
+        features: ["2 KVA", "Off-Grid", "Solar PCU"],
+        specifications: {
+            "Capacity": "2 KVA",
+            "Type": "Off-Grid PCU",
+            "Efficiency": "93%",
+            "Warranty": "2 Years"
+        },
+        badges: ["Residential", "Energy Independent", "Reliable"],
+        rating: 5,
+        reviewCount: 11
+    },
+    // ========== HEAT PUMP WATER HEATER ==========
+    {
+        id: 'heat-pump-200l',
+        name: 'Heat Pump Water Heater 200L',
+        category: CATEGORIES.HEAT_PUMP,
+        price: '₹65,000',
+        mrp: '₹85,000',
+        savings: '₹20,000',
+        description: `Energy efficient heat pump water heater for residential use. Uses air-to-water heat transfer technology to save up to 70% on electricity bills.`,
+        image: '/logo.png',
+        images: ['/logo.png'],
+        features: ['70% Energy Saving', 'Quick Heating', 'LCD Display'],
+        specifications: { Capacity: '200L', Type: 'Air Source', Warranty: '2 Years' },
+        badges: ['Energy Efficient', 'Smart Eco'],
+        rating: 4.8,
+        reviewCount: 5
+    },
+    // ========== SMART CAMERAS ==========
+    {
+        id: 'smart-wifi-camera-1080p',
+        name: 'Smart WiFi Camera 1080p',
+        category: CATEGORIES.CAMERA,
+        price: '₹2,999',
+        mrp: '₹4,500',
+        savings: '₹1,501',
+        description: `Full HD 1080p Smart WiFi Security Camera with night vision, motion detection, and two-way audio.`,
+        image: '/logo.png',
+        images: ['/logo.png'],
+        features: ['1080p HD', 'Night Vision', 'Motion Detection'],
+        specifications: { Resolution: '1080p', Storage: 'Micro SD Slot', Audio: 'Two-way' },
+        badges: ['Bestseller', 'Easy Setup'],
+        rating: 4.5,
+        reviewCount: 50
+    },
+    // ========== ROBOTIC VACUUMS ==========
+
+    {
+        id: 'eureka-forbes-smartclean-auto-bin',
+        name: 'Robotic Vaccum Cleaner with Auto Bin',
+        category: CATEGORIES.ROBOTIC_VACUUM,
+        price: '₹38,500',
+        mrp: '₹46,800',
+        savings: '₹8,300',
+        description: `Eureka Forbes SmartClean, 5000Pa HyperSuction Robotic Vacuum Cleaner with Auto Bin (65 Days Hands-Free Cleaning) | LiDAR 3.0 & Home Mapping | Wet Mopping | 5-Hour Run Time | Smart App Control
+
+Free Post-Purchase Virtual Demo: Get fully acquainted with all the features of your new smart cleaner through a complimentary virtual demo
+Self-Emptying Dust Bin: Enjoy up to 65 days of hands-free cleaning with automatic dust disposal into a 4L bag, minimizing the need for maintenance
+5000Pa HyperSuction Power & Unmatched 5-Hour Runtime: Experience the incredible power of 5000Pa HyperSuction (in Max mode), engineered to lift even the finest dust and debris, leaving your floors impeccably clean with minimal effort. Powered by a 5000mAh battery (typical), enjoy up to 5 hours of continuous cleaning (in Quiet mode), perfect for large homes or extended cleaning sessions without interruptions
+Advanced LiDAR 3.0 Precision Navigation with 360° Real-Time Quick Home Mapping in 5 Minutes: Navigate smarter with LiDAR 3.0 technology, delivering accurate home mapping and precise, thorough cleaning across every room with seamless efficiency. Enjoy complete home coverage with 360° real-time mapping, finished in just 5 minutes
+Designed for Indian Homes & All Floor Types: Tailored specifically for Indian homes, the Forbes SmartClean with Home Mapping Nuo performs exceptionally well on wood, tile, marble, and carpeted floors, ensuring flawless cleaning across all surfaces
+3S Mopping Technology: Smart, Scratch-Free, Silent (Quiet Mode) offers customisable mopping levels suitable for tiles, marble, wooden floors, and carpets
+Smart App Control with Custom CleanAssist: Take control from anywhere with the Smart Life app. Customize your cleaning schedule, target specific areas, and adjust modes with just a few taps for a hassle-free experience
+Voice Control with Alexa & Google Assistant: Control your cleaning, hands-free! With Alexa and Google Assistant compatibility, you can start, stop, or schedule cleaning using simple voice commands
+Quiet Operation for Undisturbed Cleaning, Anti-Collision & Anti-Drop Sensors: Enjoy powerful cleaning without the noise. With ultra-quiet operation, your robotic vacuum cleaner works seamlessly in the background, ensuring a peaceful environment. Features advanced anti-collision and anti-drop sensors, ensuring smooth navigation and protection from falls
+HEPA H13 Grade Filtration for Allergy-Friendly Cleaning: Breathe easy with HEPA H13 Grade filtration, which captures dust and allergens, providing cleaner air and a healthier living environment—ideal for allergy-sensitive households`,
+        image: '/ASSETS/Robotics_c/c11.webp',
+        images: [
+            '/ASSETS/Robotics_c/c11.webp',
+            '/ASSETS/Robotics_c/c12.webp',
+            '/ASSETS/Robotics_c/c13.webp',
+            '/ASSETS/Robotics_c/c14.webp',
+            '/ASSETS/Robotics_c/c15.webp'
+        ],
+        features: ['5000Pa Suction', 'Auto Bin', 'LiDAR 3.0', 'Wet Mopping', 'App Control'],
+        specifications: {
+            "Brand": "Eureka Forbes",
+            "Model": "SmartClean with Auto Bin",
+            "Suction": "5000Pa",
+            "Runtime": "300 Minutes",
+            "Bin Capacity": "4 Litres",
+            "Navigation": "LiDAR 3.0",
+            "Warranty": "1 Year"
+        },
+        badges: ['Best Seller', 'Auto Empty', 'Smart Home'],
+        rating: 4.8,
+        reviewCount: 42
+    },
+    {
+        id: 'eureka-forbes-smartclean-nuo-s2',
+        name: 'Robotic Vaccum Cleaner with Auto Bin',
+        category: CATEGORIES.ROBOTIC_VACUUM,
+        price: '₹28,500',
+        mrp: '₹33,000',
+        savings: '₹4,500',
+        description: `The Eureka Forbes Smartclean Home Mapping Nuo S2 Robotic Vacuum Cleaner is engineered for powerful, intelligent cleaning in large Indian homes. Combining advanced AI navigation, ultra-high suction, and customisable cleaning controls, it delivers thorough, quiet, and uninterrupted cleaning across diverse floor types while adapting seamlessly to everyday household needs.
+
+Free Post-Purchase Virtual Demo: Includes a complimentary virtual demo to help users understand features and optimise usage after installation.
+
+9000Pa Hyper Suction Power: Delivers up to 9000Pa suction in Max mode, effectively lifting fine dust, debris, and embedded dirt.
+
+5-Hour Long Runtime with Wide Coverage: Powered by a 5000mAh battery, providing up to five hours of uninterrupted cleaning and covering approximately 3000 sq. ft. in Quiet Mode.
+
+AI-Powered LiDAR 3.0 Navigation: Uses LiDAR 3.0 technology for precise navigation, accurate path planning, and efficient room-to-room cleaning.
+
+360° Real-Time Quick Home Mapping: Completes full home mapping in just five minutes, ensuring structured and complete coverage.
+
+Designed for Indian Homes & All Floor Types: Performs efficiently on wood, tile, marble, and carpeted floors found in Indian households.
+
+2-in-1 Dry Vacuuming and Wet Mopping: Cleans up to 15 floor types using combined dry vacuuming and wet mopping technology.
+
+3S Mopping Technology: Offers Smart, Scratch-Free, Silent mopping with customisable levels suitable for multiple floor surfaces.
+
+Smart App Control with Custom CleanAssist: Enables scheduling, area selection, and mode adjustments through the Smart Life app.
+
+Voice Control with Alexa & Google Assistant: Allows hands-free control for starting, stopping, or scheduling cleaning using voice commands.
+
+Quiet Operation: Ensures powerful cleaning with minimal noise for an undisturbed home environment.
+
+HEPA H13 Grade Filtration: Captures dust and allergens, supporting cleaner air and allergy-friendly cleaning.
+
+No-Go Zones and Spot Cleaning: Allows restricted areas and targeted cleaning of specific spots.
+
+Anti-Collision & Anti-Drop Sensors: Ensures safe navigation by avoiding obstacles and preventing falls.
+
+Ultimate Pet-Pro Cleaning System: Effectively cleans pet hair and mess without disturbing pets.
+
+Cleans 100+ Dirt Types: Handles a wide variety of dirt commonly found in Indian homes.`,
+        image: '/ASSETS/Robotics_d/d11.webp',
+        images: [
+            '/ASSETS/Robotics_d/d11.webp',
+            '/ASSETS/Robotics_d/d12.webp',
+            '/ASSETS/Robotics_d/d13.webp',
+            '/ASSETS/Robotics_d/d14.webp',
+            '/ASSETS/Robotics_d/d15.webp'
+        ],
+        features: ['9000Pa Suction', 'LiDAR 3.0', '2-in-1 Vacuum & Mop', '5-Hour Runtime', 'Pet-Pro System'],
+        specifications: {
+            "Brand": "Eureka Forbes",
+            "Model": "Smartclean Home Mapping Nuo S2",
+            "Suction": "9000Pa",
+            "Runtime": "300 Minutes",
+            "Coverage": "3000 sq. ft.",
+            "Navigation": "AI LiDAR 3.0",
+            "Warranty": "1 Year"
+        },
+        badges: ['9000Pa Power', 'Pet-Friendly', 'AI Navigation'],
+        rating: 4.9,
+        reviewCount: 38
+    },
+];
