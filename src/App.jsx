@@ -84,7 +84,15 @@ export default function App() {
   }, [lang])
 
   const addToCart = useCallback((product) => {
-    setCart((prev) => [...prev, product])
+    setCart((prev) => {
+      const existingIndex = prev.findIndex(item => item.id === product.id)
+      if (existingIndex >= 0) {
+        const updated = [...prev]
+        updated[existingIndex] = { ...updated[existingIndex], quantity: (updated[existingIndex].quantity || 1) + 1 }
+        return updated
+      }
+      return [...prev, { ...product, quantity: 1 }]
+    })
     addToast(`${product.name} added to cart!`)
   }, [addToast])
 
@@ -95,6 +103,19 @@ export default function App() {
       return next
     })
   }, [])
+
+  const updateQuantity = useCallback((index, newQuantity) => {
+    if (newQuantity < 1) {
+      // Remove item if quantity is 0
+      removeFromCart(index)
+      return
+    }
+    setCart((prev) => {
+      const updated = [...prev]
+      updated[index] = { ...updated[index], quantity: newQuantity }
+      return updated
+    })
+  }, [removeFromCart])
 
   const handleCheckout = useCallback((customerInfo) => {
     setCustomerInfo(customerInfo)
@@ -152,7 +173,7 @@ export default function App() {
   return (
     <ToastProvider>
       <div className="min-h-screen bg-white font-sans overflow-x-hidden text-slate-900">
-        <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} cartItems={cart} onRemove={removeFromCart} onCheckout={handleCheckout} />
+        <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} cartItems={cart} onRemove={removeFromCart} onUpdateQuantity={updateQuantity} onCheckout={handleCheckout} />
         <Navbar scrolled={scrolled} cartCount={cart.length} isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} onCartOpen={() => setIsCartOpen(true)} onNavigate={onNavigate} lang={lang} shopName={shopName} />
         <ProductDetailModal product={selectedProduct} isOpen={!!selectedProduct} onClose={() => setSelectedProduct(null)} onAddToCart={addToCart} />
 

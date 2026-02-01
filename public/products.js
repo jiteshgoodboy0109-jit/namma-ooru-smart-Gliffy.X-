@@ -605,4 +605,377 @@ Cleans 100+ Dirt Types: Handles a wide variety of dirt commonly found in Indian 
         rating: 4.9,
         reviewCount: 38
     },
+
+    // ========== SOLAR CAMERA ==========
+    {
+        id: 'solar-camera-3mp-4g',
+        name: 'Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel',
+        category: CATEGORIES.CAMERA,
+        price: '₹12,500',
+        mrp: '₹15,000',
+        savings: '₹2,500',
+        description: `Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel
+
+⚠️ Important Note:
+- Installation Charges: Extra
+- Memory Card: Extra
+- G.I Pipe & Civil Work: Customer Scope
+
+✔ Recommended For:
+Outdoor Security, Remote Areas, Farms, Construction Sites
+
+✔ Connectivity:
+4G Cellular (SIM Based – No WiFi Required)
+
+✔ Dual Lens System (3MP + 3MP):
+Two 4MM Fixed Lenses for Wide View and Pan-Tilt Monitoring
+
+✔ Pan & Tilt Coverage:
+- Horizontal: 266°
+- Vertical: 90°
+- Full Area Coverage Without Blind Spots
+
+✔ Two-Way Audio:
+Built-in Microphone & Speaker for Real-Time Communication
+
+✔ Zoom & Preset Points:
+- 10X Digital Zoom
+- Supports Up to 6 Preset Locations
+
+✔ Active Defense System:
+Built-in Siren and Warning Lights to Deter Intruders
+
+✔ Night Vision:
+All-Time Color Night Vision for Clear Viewing in Low Light
+
+✔ Smart Security Features:
+- Motion Detection
+- Human Tracking
+- Intruder Alarm
+- Instant Alerts
+
+✔ Device Compatibility:
+Supports Mobile, Desktop, and Laptop
+
+✔ Indoor & Outdoor Use:
+Weather-Resistant Design for All Environments`,
+        image: '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h1.webp',
+        images: [
+            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h1.webp',
+            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h2.webp',
+            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h3.webp',
+            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h4.webp',
+            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h5.webp'
+        ],
+        features: [
+            '4G Cellular (No WiFi)',
+            'Dual 3MP Lenses',
+            'Solar Powered',
+            'Pan & Tilt (266°/90°)',
+            'Two-Way Audio',
+            '10X Digital Zoom',
+            'Color Night Vision',
+            'Motion Detection',
+            'Human Tracking',
+            'Active Defense System'
+        ],
+        specifications: {
+            'Resolution': 'Dual 3MP + 3MP',
+            'Connectivity': '4G Cellular (SIM Based)',
+            'Lens': '4MM Fixed (x2)',
+            'Pan Range': '266° Horizontal',
+            'Tilt Range': '90° Vertical',
+            'Zoom': '10X Digital',
+            'Night Vision': 'All-Time Color',
+            'Audio': 'Two-Way (Mic + Speaker)',
+            'Power': 'Solar Panel + Battery',
+            'Preset Points': 'Up to 6',
+            'Weather Rating': 'Indoor & Outdoor',
+            'Compatibility': 'Mobile, Desktop, Laptop'
+        },
+        badges: ['4G Ready', 'Solar Powered', 'No WiFi Required', 'Outdoor Security'],
+        rating: 4.6,
+        reviewCount: 28
+    },
+    {
+        id: 'solar-camera-4mp-4g-cp-plus',
+        name: 'Solar Camera 4MP 4G Battery Camera with Solar Panel',
+        category: CATEGORIES.CAMERA,
+        price: '₹10,500',
+        mrp: '₹14,000',
+        savings: '₹3,500',
+        description: `Solar Camera 4MP 4G Battery Camera with Solar Panel - CP Plus CP-Z44R
+
+⚠️ Important Note:
+- Installation Charges: Extra
+- Memory Card: Extra
+- G.I Pipe & Civil Work: Customer Scope
+
+Product Overview:
+The CP Plus CP-Z44R is a 4MP 4G battery-powered security camera with a solar panel, designed for outdoor surveillance without the need for WiFi or direct power supply. It is ideal for homes, farms, shops, and remote locations.
+
+⭐ KEY FEATURES:
+
+📡 4G SIM Connectivity (No WiFi Required)
+Works on 4G cellular network, perfect for areas without WiFi coverage.
+
+🎥 4MP High-Resolution Video Quality
+Crystal clear 4-megapixel video recording for detailed surveillance.
+
+🔄 266° Pan & 90° Tilt Coverage
+Wide coverage area with motorized pan and tilt functionality.
+
+🌙 Smart Night Vision (IR & Full Color)
+Dual night vision modes - infrared and full-color for low-light conditions.
+
+🎙️ Two-Way Audio Communication
+Built-in microphone and speaker for real-time communication.
+
+🚨 Motion & Human Detection Alerts
+Intelligent detection system sends instant alerts to your phone.
+
+🔋 Solar Powered with Long Battery Backup
+Eco-friendly solar panel ensures continuous operation without wiring.
+
+💾 Supports Micro SD Card (Up to 256GB)
+Local storage support for continuous recording.
+
+🌧️ IP66 Waterproof Outdoor Design
+Weather-resistant construction for all outdoor conditions.
+
+📱 Mobile App Monitoring (Android & iOS)
+Monitor and control from anywhere using your smartphone.`,
+        image: '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1.webp',
+        images: [
+            '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1.webp',
+            '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I2.webp',
+            '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I3.webp'
+        ],
+        features: [
+            '4G SIM Connectivity',
+            '4MP Resolution',
+            'Solar Powered',
+            'Pan 266° & Tilt 90°',
+            'Two-Way Audio',
+            'Smart Night Vision',
+            'Motion Detection',
+            'Human Detection',
+            'IP66 Waterproof',
+            'Mobile App Control'
+        ],
+        specifications: {
+            'Model': 'CP Plus CP-Z44R',
+            'Resolution': '4MP',
+            'Connectivity': '4G Cellular (SIM Based)',
+            'Pan Range': '266° Horizontal',
+            'Tilt Range': '90° Vertical',
+            'Night Vision': 'IR + Full Color',
+            'Audio': 'Two-Way (Mic + Speaker)',
+            'Power': 'Solar Panel + Battery',
+            'Storage': 'Micro SD (Up to 256GB)',
+            'Weather Rating': 'IP66 Waterproof',
+            'App Support': 'Android & iOS',
+            'Detection': 'Motion & Human'
+        },
+        badges: ['4G Ready', 'Solar Powered', 'CP Plus', 'Waterproof'],
+        rating: 4.7,
+        reviewCount: 35
+    },
+    {
+        id: 'cctv-2mp-ip-cameras-4nos-nvr',
+        name: '2MP CCTV IP Cameras 4nos with NVR',
+        category: CATEGORIES.CAMERA,
+        price: '₹27,750',
+        mrp: '₹32,500',
+        savings: '₹4,750',
+        description: `2MP CCTV IP Cameras 4nos - Complete Surveillance Package
+
+⚠️ Important Note:
+- Extra Cable: ₹34/- per Meter
+- Wiring Charges (Without Electrical Materials): ₹22/- per Meter
+- Internet Connection: ₹3,000/-
+
+🎥 KEY FEATURES:
+
+🎥 High-Definition 2MP Full HD Cameras
+Crystal clear 1920×1080 resolution for detailed surveillance footage.
+
+📡 PoE Support (Power & Data via Single Cable)
+Simplified installation with Power over Ethernet technology.
+
+🌙 30 Meter IR Night Vision
+Clear visibility up to 30 meters in complete darkness.
+
+💾 H.265+ Video Compression
+Advanced compression saves storage space without compromising quality.
+
+📱 Mobile & CMS Monitoring Support
+Monitor your cameras from anywhere using mobile apps or CMS software.
+
+🌧️ IP67 Weatherproof Design
+Fully protected against dust and water for outdoor use.
+
+🔒 Secure Recording with NVR
+4-channel NVR with support for up to 6TB storage.
+
+🛠️ Professional Installation Included
+Expert installation ensures optimal camera placement and performance.
+
+📷 2MP IR Dome Camera Specifications:
+- Sensor: 1/2.7" 2MP PS CMOS
+- Resolution: 1920 × 1080 @ 20fps
+- Lens: 2.8mm (3.6mm Optional)
+- Compression: H.265+ / H.265
+- IR Range: Up to 30m
+- Features: DWDR, ICR, 3D-DNR, ROI, AWB, AGC, BLC, HLC
+- Protection: IP67
+- Power: PoE
+- Mobile App: iCMOB, gCMOB
+- CMS: KVMS Pro
+
+📷 2MP IR Bullet Camera Specifications:
+- Sensor: 1/2.7" 2MP PS CMOS
+- Resolution: 1920 × 1080 @ 25/30fps
+- Lens: 2.8mm (3.6mm Optional)
+- Compression: H.265+ / H.265
+- IR Range: Up to 30m
+- Features: DWDR, ICR, 3D-DNR, ROI, AWB, AGC, BLC, HLC
+- Protection: IP67
+- Power: PoE
+
+📀 4 Channel 4K NVR Specifications:
+- Channels: Supports Up to 4 IP Cameras
+- Compression: H.265 / H.264
+- Resolution Support: Up to 8MP
+- Bandwidth: 80 Mbps Incoming
+- Storage: 1 SATA HDD (Up to 6TB)
+- USB Ports: 2 × USB 2.0
+- Video Output: HDMI & VGA (Simultaneous)
+- ONVIF: Version 2.4
+- Mobile App: iCMOB, gCMOB
+- CMS: KVMS Pro`,
+        image: '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j1.webp',
+        images: [
+            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j1.webp',
+            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j2.webp',
+            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j3.webp',
+            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j4.webp'
+        ],
+        features: [
+            '4 × 2MP Full HD Cameras',
+            'PoE Support',
+            '30m Night Vision',
+            'H.265+ Compression',
+            'Mobile Monitoring',
+            'IP67 Weatherproof',
+            '4-Channel NVR',
+            'Up to 6TB Storage',
+            'HDMI & VGA Output',
+            'Professional Installation'
+        ],
+        specifications: {
+            'Package': '4 Cameras + NVR',
+            'Resolution': '2MP (1920×1080)',
+            'Camera Types': 'Dome & Bullet',
+            'Lens': '2.8mm (3.6mm Optional)',
+            'IR Range': '30 Meters',
+            'Compression': 'H.265+ / H.265',
+            'NVR Channels': '4 Channel',
+            'Storage': 'Up to 6TB HDD',
+            'Power': 'PoE',
+            'Protection': 'IP67',
+            'Mobile App': 'iCMOB, gCMOB',
+            'CMS': 'KVMS Pro'
+        },
+        badges: ['Complete Package', 'PoE', 'Professional Installation', '4K NVR'],
+        rating: 4.8,
+        reviewCount: 42
+    },
+    {
+        id: 'cctv-2mp-ip-cameras-8nos-cp-plus',
+        name: '2MP CCTV IP Cameras 8nos - CP Plus',
+        category: CATEGORIES.CAMERA,
+        price: '₹47,750',
+        mrp: '₹52,500',
+        savings: '₹4,750',
+        description: `2MP CCTV IP Cameras 8nos - CP Plus Advanced Security Package
+
+⚠️ Extra Charges:
+- Extra Cable: ₹34/- per Meter
+- Wiring Charges (Without Electrical Materials): ₹22/- per Meter
+- Internet Router: ₹3,000/-
+
+🏢 About CP Plus:
+CP Plus is globally known for developing advanced security solutions that make surveillance easy, reliable, and effective. This 8-camera IP CCTV package is designed using the latest smart technologies to meet modern security requirements for homes, offices, shops, and commercial spaces.
+
+The system is powered with advanced features such as H.265+ video compression, smart detection, live viewing, and intelligent tracking, ensuring high performance with low storage consumption. The 2MP Full HD cameras provide clear and detailed video footage for complete area monitoring.
+
+With durable build quality and vandal-resistant design, this CCTV package delivers long-lasting security in all environments.
+
+🧠 Smart Analytical Support:
+This system includes advanced smart analytics for enhanced security.
+
+✅ Motion Detection
+Automatically detects movement in monitored areas.
+
+✅ Intrusion Detection
+Alerts when unauthorized entry is detected in restricted zones.
+
+✅ Tripwire Alerts
+Triggers alerts when objects cross predefined virtual lines.
+
+✅ Missing / Abandoned Object Detection
+Identifies objects that are removed or left behind in monitored areas.
+
+✅ Real-Time Mobile Notifications
+Instant alerts help you respond quickly to security threats.
+
+🎥 Key Features:
+- 2MP Full HD Resolution (1920×1080)
+- H.265+ Video Compression for Low Storage
+- Smart Detection & Intelligent Tracking
+- Live Viewing from Mobile & Desktop
+- Vandal-Resistant & Durable Design
+- PoE Support for Easy Installation
+- Night Vision up to 30 Meters
+- IP67 Weatherproof Rating
+- 8-Channel NVR with Large Storage Support
+- ONVIF Compliant for Universal Compatibility`,
+        image: '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k1.webp',
+        images: [
+            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k1.webp',
+            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k2.webp',
+            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k3.webp',
+            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k4.webp'
+        ],
+        features: [
+            '8 × 2MP Full HD Cameras',
+            'H.265+ Compression',
+            'Smart Analytics',
+            'Motion Detection',
+            'Intrusion Detection',
+            'Tripwire Alerts',
+            'Object Detection',
+            'Mobile Notifications',
+            'PoE Support',
+            'IP67 Weatherproof'
+        ],
+        specifications: {
+            'Brand': 'CP Plus',
+            'Package': '8 Cameras + NVR',
+            'Resolution': '2MP (1920×1080)',
+            'Compression': 'H.265+ / H.265',
+            'IR Range': '30 Meters',
+            'NVR Channels': '8 Channel',
+            'Power': 'PoE',
+            'Protection': 'IP67',
+            'Analytics': 'Motion, Intrusion, Tripwire',
+            'Detection': 'Missing/Abandoned Object',
+            'Notifications': 'Real-Time Mobile',
+            'Design': 'Vandal-Resistant'
+        },
+        badges: ['CP Plus', 'Smart Analytics', '8 Cameras', 'Advanced Security'],
+        rating: 4.9,
+        reviewCount: 56
+    },
 ];
