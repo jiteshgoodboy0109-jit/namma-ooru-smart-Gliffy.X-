@@ -18,8 +18,10 @@ const Bill = lazy(() => import('./components/Bill.jsx'))
 import { AnimatePresence, motion } from 'framer-motion'
 import { Plus } from 'lucide-react'
 import WhatsAppFloat from './components/WhatsAppFloat.jsx'
+import ImageWithFallback from './components/ImageWithFallback.jsx'
+import { PRODUCTS, CATEGORIES } from './data/products'
 
-const PRODUCTS = window.PRODUCTS || []
+// const PRODUCTS = window.PRODUCTS || []
 
 const ToastContext = createContext()
 export function ToastProvider({ children }) {
@@ -195,7 +197,7 @@ export default function App() {
               ))}
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 md:gap-5">
-              {filteredProducts.map((product) => (
+              {filteredProducts.map((product, index) => (
                 <motion.div
                   layout
                   key={product.id}
@@ -207,13 +209,11 @@ export default function App() {
                   className="group rounded-3xl overflow-hidden bg-white border border-slate-100 shadow-md hover:shadow-xl transition-all duration-200 flex flex-col cursor-pointer will-change-transform"
                 >
                   <div className="aspect-square relative bg-gray-50 overflow-hidden">
-                    <img
+                    <ImageWithFallback
                       src={product.image}
                       alt={product.name}
-                      className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
-                      loading="eager"
-                      decoding="async"
-                      fetchpriority="high"
+                      loading={index < 6 ? "eager" : "lazy"}
+                      className="w-full h-full transform group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute top-2 left-2 z-20 bg-white/90 backdrop-blur-sm text-slate-900 text-[8px] md:text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">
                       {product.category}

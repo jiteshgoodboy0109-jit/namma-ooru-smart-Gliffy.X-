@@ -659,13 +659,13 @@ Supports Mobile, Desktop, and Laptop
 
 ✔ Indoor & Outdoor Use:
 Weather-Resistant Design for All Environments`,
-        image: '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h1.webp',
+        image: '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
         images: [
-            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h1.webp',
-            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h2.webp',
-            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h3.webp',
-            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h4.webp',
-            '/ASSETS/Solar camera/Solar Camera 3MP +3MP 4G Battery Camera with Solar Panel/h5.webp'
+            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
+            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h2.webp',
+            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h3.webp',
+            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h4.webp',
+            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h5.webp'
         ],
         features: [
             '4G Cellular (No WiFi)',

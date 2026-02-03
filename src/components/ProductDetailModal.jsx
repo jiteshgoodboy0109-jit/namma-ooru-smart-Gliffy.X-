@@ -2,13 +2,6 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { X, Sun, ShoppingCart, Minus, Plus, Award, ShieldCheck, Zap } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
-const getImageUrl = (path) => {
-  if (!path) return '';
-  if (path.startsWith('http')) return path;
-  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
-  return `${import.meta.env.BASE_URL}${cleanPath}`;
-}
-
 const PLACEHOLDER_IMAGE = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800"%3E%3Crect fill="%23f1f5f9" width="800" height="800"/%3E%3Ctext x="50%25" y="50%25" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="24" fill="%2394a3b8"%3EImage Not Available%3C/text%3E%3C/svg%3E';
 
 export default function ProductDetailModal({ product, isOpen, onClose, onAddToCart }) {
@@ -72,7 +65,7 @@ export default function ProductDetailModal({ product, isOpen, onClose, onAddToCa
                           }`}
                       >
                         <img
-                          src={imgErrors[idx] ? PLACEHOLDER_IMAGE : getImageUrl(img)}
+                          src={imgErrors[idx] ? PLACEHOLDER_IMAGE : img}
                           alt={`View ${idx + 1}`}
                           className="w-full h-full object-cover"
                           loading="eager"
@@ -96,7 +89,7 @@ export default function ProductDetailModal({ product, isOpen, onClose, onAddToCa
                       initial={{ opacity: 0, scale: 0.95 }}
                       animate={{ opacity: isImageLoading ? 0 : 1, scale: 1 }}
                       transition={{ duration: 0.3 }}
-                      src={imgErrors[activeImageIndex] ? PLACEHOLDER_IMAGE : getImageUrl(galleryImages[activeImageIndex])}
+                      src={imgErrors[activeImageIndex] ? PLACEHOLDER_IMAGE : galleryImages[activeImageIndex]}
                       alt={product.name}
                       onLoad={() => setIsImageLoading(false)}
                       onError={() => {
@@ -239,7 +232,7 @@ export default function ProductDetailModal({ product, isOpen, onClose, onAddToCa
                   initial={{ scale: 0.9, opacity: 0 }}
                   animate={{ scale: 1, opacity: 1 }}
                   exit={{ scale: 0.9, opacity: 0 }}
-                  src={imgErrors[activeImageIndex] ? PLACEHOLDER_IMAGE : getImageUrl(galleryImages[activeImageIndex])}
+                  src={imgErrors[activeImageIndex] ? PLACEHOLDER_IMAGE : galleryImages[activeImageIndex]}
                   alt="Full Screen View"
                   className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
                   onClick={(e) => e.stopPropagation()} // Prevent closing when clicking image
@@ -258,7 +251,7 @@ export default function ProductDetailModal({ product, isOpen, onClose, onAddToCa
                         }`}
                     >
                       <img
-                        src={imgErrors[idx] ? PLACEHOLDER_IMAGE : getImageUrl(img)}
+                        src={imgErrors[idx] ? PLACEHOLDER_IMAGE : img}
                         className="w-full h-full object-cover"
                         onError={() => setImgErrors(prev => ({ ...prev, [idx]: true }))}
                       />

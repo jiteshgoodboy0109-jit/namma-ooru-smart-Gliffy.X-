@@ -1,13 +1,15 @@
 import { motion } from 'framer-motion'
 import { Facebook, Instagram } from 'lucide-react'
 
+import logo from '../assets/images/logo_new.png'
+
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-white py-8 sm:py-12 md:py-16">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-6 sm:mb-8">
           <img
-            src="/logo_new.png"
+            src={logo}
             alt="Namma Ooru Logo"
             className="h-12 sm:h-14 md:h-16 w-auto object-contain rounded-full shadow-lg border-2 border-slate-700"
             loading="lazy"
