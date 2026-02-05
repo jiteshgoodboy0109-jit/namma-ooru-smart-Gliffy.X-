@@ -16,10 +16,10 @@
         mrp: '₹25,000',                         // 🏷️ MRP (Original Price)
         savings: '₹5,000',                      // 💸 Savings Amount
         description: `Description here...`,     // 📝 Description (Key features, Warranty, etc.)
-        image: '/ASSETS/path-to-image.jpg',     // 🖼️ Main Image
+        image: '/namma-ooru-smart/ASSETS/path-to-image.jpg',     // 🖼️ Main Image
         images: [                               // 📸 Gallery Images (Optional)
-            '/ASSETS/path-to-image.jpg',
-            '/ASSETS/path-to-image-2.jpg'
+            '/namma-ooru-smart/ASSETS/path-to-image.jpg',
+            '/namma-ooru-smart/ASSETS/path-to-image-2.jpg'
         ],
         features: ['Feature 1', 'Feature 2'],   // ✨ Short highlights
         specifications: {                       // ⚙️ Technical Specs
@@ -60,12 +60,12 @@ window.PRODUCTS = [
 Eureka Aspire Nova RO UV 2X 6.2 L Gravity Based Water Purifier | Mega Sediment Filter At No Extra Cost | (Black) .
 
 Warranty and Installation – Comes with a 1-year free warranty and includes complimentary installation.`,
-        image: '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1.webp',
+        image: '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1.webp',
         images: [
-            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a11.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a111.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1111.webp'
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a11.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a111.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1111.webp'
         ],
         features: ['RO+UV 2X', '6.2L Capacity', 'Gravity Based'],
         specifications: { Capacity: '6.2L', Type: 'Gravity Based', Warranty: '1 Year' },
@@ -86,11 +86,11 @@ Eureka Vector ENRICH RO+UV+MC 2X Water Purifier | Suitable for all type of Borew
 Ample Storage: Enjoy a generous 6.2 Litres of Storage with a Sleek, Compact & Mordern Design.
 LED Indicators: To let you know the Purifier is On/Off, Full Tank Indicator and Service Indicator.
 Compact and Ergonomic: Sleek and space-saving, this purifier boasts a compact, ergonomic design that seamlessly integrates into your living space.`,
-        image: '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21.jpeg',
+        image: '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21.jpeg',
         images: [
-            '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21.jpeg',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a22.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a23.jpeg'
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21.jpeg',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a22.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a23.jpeg'
         ],
         features: ['RO+UV+MC', '6.2L Storage', 'Eco-friendly'],
         specifications: { Capacity: '6.2L', Type: 'RO+UV+MC', Warranty: '1 Year' },
@@ -117,12 +117,12 @@ Top highlights:
 - Material: Stainless Steel, Polypropylene, Acrylonitrile Butadiene Styrene
 
 Included Components: Water Purifier (Input pipe, Diverter valve & Warranty Card, Reject pipe).`,
-        image: '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a31.webp',
+        image: '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a31.webp',
         images: [
-            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a31.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a32.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a33.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a34.webp'
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a31.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a32.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a33.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Blaze_Insta_Hot_Ambient/a34.webp'
         ],
         features: ['Insta Hot Water', 'Automatic Shut-Off', '5.6L Capacity'],
         specifications: { Capacity: '5.6L', 'Flow Rate': '15 LPH', 'Temp Rating': '40°C' },
@@ -146,11 +146,11 @@ Key Features:
 - Clean Free Technology: Suitable for all age groups.
 - Free Service Plan (worth ₹2000): Includes free installation, 1 free maintenance visit, and unlimited repair visits within 1 year.
 - Certifications: NABL and WQIA certified for reliability and performance.`,
-        image: '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a41.webp',
+        image: '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a41.webp',
         images: [
-            '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a41.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a42.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a43.webp'
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a41.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a42.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Designo_NXT_Under_Sink_Ro/a43.webp'
         ],
         features: ['Under Sink', 'Active Copper', '9-Stage Purification'],
         specifications: { Capacity: '7L Storage', Type: 'Under Counter', Tech: 'RO+UV+Copper' },
@@ -177,11 +177,11 @@ Key Features:
 - Active Copper with Zinc Booster Cartridge & Mineral Magnet.
 
 Included: Water Purifier 1N, Installation Kit 1N, Warranty Card + QR Code 1N.`,
-        image: '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a51.webp',
+        image: '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a51.webp',
         images: [
-            '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a51.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a52.webp',
-            '/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a53.webp'
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a51.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a52.webp',
+            '/namma-ooru-smart/ASSETS/Water_Purifier_a/Aquaguard_Nova_Ro_UV_SS/a53.webp'
         ],
         features: ['RO+UV+UF+TA', 'Alkaline+SS', '6.2L Storage'],
         specifications: { Capacity: '6.2L', Rate: '1.5 L/min', Type: 'Wall/Table Mount' },
@@ -217,11 +217,11 @@ Features:
 - Intelligent Control: Auto-selects regeneration.
 - LCD Display Panel: Shows current settings.
 - Auto Setting Lock: Retains settings during power cuts.`,
-        image: '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b11.webp',
+        image: '/namma-ooru-smart/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b11.webp',
         images: [
-            '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b11.webp',
-            '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b12.webp',
-            '/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b13.webp'
+            '/namma-ooru-smart/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b11.webp',
+            '/namma-ooru-smart/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b12.webp',
+            '/namma-ooru-smart/ASSETS/Water_Softener_b/Aquaguard_AWS_I_2500_Water_Softener/b13.webp'
         ],
         features: ['2100 LPH Flow', 'Auto Regeneration', 'Ionic-Transfer'],
         specifications: { Capacity: '25L Resin', Flow: '2100 LPH', Hardness: 'Max 1900 ppm' },
@@ -253,11 +253,11 @@ How it works:
 Hard water enters the system, passes through resin beads which trap calcium and magnesium, and exchanges them for sodium/potassium, delivering soft water to your home.
 
 Included: Warranty 1 Year.`,
-        image: '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b21.webp',
+        image: '/namma-ooru-smart/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b21.webp',
         images: [
-            '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b21.webp',
-            '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b22.webp',
-            '/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b23.webp'
+            '/namma-ooru-smart/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b21.webp',
+            '/namma-ooru-smart/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b22.webp',
+            '/namma-ooru-smart/ASSETS/Water_Softener_b/Fully_Automatic_Water_Softener_1000L_Day/b23.webp'
         ],
         features: ['1000L Capacity', 'Fully Automatic', 'Ion Exchange'],
         specifications: { Capacity: '1000L', Type: 'Vertical', Height: '48 inch' },
@@ -294,11 +294,11 @@ Warranty:
 - Battery: 5 Years
 
 Note: Installation and delivery charges are extra.`,
-        image: '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e11.webp',
+        image: '/namma-ooru-smart/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e11.webp',
         images: [
-            '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e11.webp',
-            '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e12.webp',
-            '/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e13.webp'
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e11.webp',
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e12.webp',
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/1050_UPS_150Ah_Battery_Luminous_e/e13.webp'
         ],
         features: ['1050 VA UPS', '150Ah Battery', 'High Load Capacity', 'Long Warranty'],
         specifications: {
@@ -347,11 +347,11 @@ Product Features:
 Warranty:
 - 2 Years Warranty (Installation & Delivery Free)
 - Battery Warranty: 3 Years`,
-        image: '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f11.webp',
+        image: '/namma-ooru-smart/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f11.webp',
         images: [
-            '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f11.webp',
-            '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f12.webp',
-            '/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f13.webp'
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f11.webp',
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f12.webp',
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/1050UPS_150Ah_Battery_Exide_f/f13.webp'
         ],
         features: ['1050 VA UPS', '150Ah Tubular Battery', 'Frequent Power Cut Design', 'Installation Free'],
         specifications: {
@@ -401,11 +401,11 @@ Battery Details (RC 18000 150 Ah):
 Inverter Compatibility: Designed for all types of power cut situation with high charge acceptance and low maintenance.
 Running Load: 1 fridge (250 liters), 1 LED TV 40", 3 fans, 2 tube light, 1 LED bulb.
 Warranty: 3 years on inverter battery.`,
-        image: '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11.webp',
+        image: '/namma-ooru-smart/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11.webp',
         images: [
-            '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11.webp',
-            '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g12.webp',
-            '/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g13.webp'
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11.webp',
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g12.webp',
+            '/namma-ooru-smart/ASSETS/Inverter_Battery/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g13.webp'
         ],
         features: ['1250VA Inverter', '150Ah Tubular Battery', 'Fast Charging', 'LCD Display'],
         specifications: {
@@ -521,13 +521,13 @@ Smart App Control with Custom CleanAssist: Take control from anywhere with the S
 Voice Control with Alexa & Google Assistant: Control your cleaning, hands-free! With Alexa and Google Assistant compatibility, you can start, stop, or schedule cleaning using simple voice commands
 Quiet Operation for Undisturbed Cleaning, Anti-Collision & Anti-Drop Sensors: Enjoy powerful cleaning without the noise. With ultra-quiet operation, your robotic vacuum cleaner works seamlessly in the background, ensuring a peaceful environment. Features advanced anti-collision and anti-drop sensors, ensuring smooth navigation and protection from falls
 HEPA H13 Grade Filtration for Allergy-Friendly Cleaning: Breathe easy with HEPA H13 Grade filtration, which captures dust and allergens, providing cleaner air and a healthier living environment—ideal for allergy-sensitive households`,
-        image: '/ASSETS/Robotics_c/c11.webp',
+        image: '/namma-ooru-smart/ASSETS/Robotics_c/c11.webp',
         images: [
-            '/ASSETS/Robotics_c/c11.webp',
-            '/ASSETS/Robotics_c/c12.webp',
-            '/ASSETS/Robotics_c/c13.webp',
-            '/ASSETS/Robotics_c/c14.webp',
-            '/ASSETS/Robotics_c/c15.webp'
+            '/namma-ooru-smart/ASSETS/Robotics_c/c11.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_c/c12.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_c/c13.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_c/c14.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_c/c15.webp'
         ],
         features: ['5000Pa Suction', 'Auto Bin', 'LiDAR 3.0', 'Wet Mopping', 'App Control'],
         specifications: {
@@ -583,13 +583,13 @@ Anti-Collision & Anti-Drop Sensors: Ensures safe navigation by avoiding obstacle
 Ultimate Pet-Pro Cleaning System: Effectively cleans pet hair and mess without disturbing pets.
 
 Cleans 100+ Dirt Types: Handles a wide variety of dirt commonly found in Indian homes.`,
-        image: '/ASSETS/Robotics_d/d11.webp',
+        image: '/namma-ooru-smart/ASSETS/Robotics_d/d11.webp',
         images: [
-            '/ASSETS/Robotics_d/d11.webp',
-            '/ASSETS/Robotics_d/d12.webp',
-            '/ASSETS/Robotics_d/d13.webp',
-            '/ASSETS/Robotics_d/d14.webp',
-            '/ASSETS/Robotics_d/d15.webp'
+            '/namma-ooru-smart/ASSETS/Robotics_d/d11.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_d/d12.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_d/d13.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_d/d14.webp',
+            '/namma-ooru-smart/ASSETS/Robotics_d/d15.webp'
         ],
         features: ['9000Pa Suction', 'LiDAR 3.0', '2-in-1 Vacuum & Mop', '5-Hour Runtime', 'Pet-Pro System'],
         specifications: {
@@ -659,13 +659,13 @@ Supports Mobile, Desktop, and Laptop
 
 ✔ Indoor & Outdoor Use:
 Weather-Resistant Design for All Environments`,
-        image: '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
+        image: '/namma-ooru-smart/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
         images: [
-            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
-            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h2.webp',
-            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h3.webp',
-            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h4.webp',
-            '/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h5.webp'
+            '/namma-ooru-smart/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h2.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h3.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h4.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h5.webp'
         ],
         features: [
             '4G Cellular (No WiFi)',
@@ -745,11 +745,11 @@ Weather-resistant construction for all outdoor conditions.
 
 📱 Mobile App Monitoring (Android & iOS)
 Monitor and control from anywhere using your smartphone.`,
-        image: '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1.webp',
+        image: '/namma-ooru-smart/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1.webp',
         images: [
-            '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1.webp',
-            '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I2.webp',
-            '/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I3.webp'
+            '/namma-ooru-smart/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I2.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/Solar Camera 4MP 4G Battery Camera with Solar Panel/I3.webp'
         ],
         features: [
             '4G SIM Connectivity',
@@ -854,12 +854,12 @@ Expert installation ensures optimal camera placement and performance.
 - ONVIF: Version 2.4
 - Mobile App: iCMOB, gCMOB
 - CMS: KVMS Pro`,
-        image: '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j1.webp',
+        image: '/namma-ooru-smart/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j1.webp',
         images: [
-            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j1.webp',
-            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j2.webp',
-            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j3.webp',
-            '/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j4.webp'
+            '/namma-ooru-smart/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j1.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j2.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j3.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/2mp Cctv IP Cameras 4nos/j4.webp'
         ],
         features: [
             '4 × 2MP Full HD Cameras',
@@ -941,12 +941,12 @@ Instant alerts help you respond quickly to security threats.
 - IP67 Weatherproof Rating
 - 8-Channel NVR with Large Storage Support
 - ONVIF Compliant for Universal Compatibility`,
-        image: '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k1.webp',
+        image: '/namma-ooru-smart/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k1.webp',
         images: [
-            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k1.webp',
-            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k2.webp',
-            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k3.webp',
-            '/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k4.webp'
+            '/namma-ooru-smart/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k1.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k2.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k3.webp',
+            '/namma-ooru-smart/ASSETS/Solar camera/2Mp Cctv IP Cameras 8nos/k4.webp'
         ],
         features: [
             '8 × 2MP Full HD Cameras',
