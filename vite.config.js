@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/namma-ooru-smart/',
+  base: '/namma-ooru-smart-Gliffy.X-/',
   plugins: [react()], server: {
     port: 5173,
     strictPort: false

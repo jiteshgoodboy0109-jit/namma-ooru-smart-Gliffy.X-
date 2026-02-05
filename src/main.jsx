@@ -5,7 +5,7 @@ import './index.css'
 import { BrowserRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/namma-ooru-smart">
+    <BrowserRouter basename="/namma-ooru-smart-Gliffy.X-">
       <ToastProvider>
         <App />
       </ToastProvider>
