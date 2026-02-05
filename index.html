@@ -12,16 +12,15 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Catamaran:wght@700;900&family=Noto+Sans+Tamil:wght@700;900&family=Outfit:wght@800;900&family=Poppins:wght@300;400;500;600;700&display=swap"
     rel="stylesheet" media="print" onload="this.media='all'">
-  <link rel="preload" as="image" href="/namma-ooru-smart/home.webp" media="(min-width: 769px)" fetchpriority="high"
+  <link rel="preload" as="image" href="./home.webp" media="(min-width: 769px)" fetchpriority="high" type="image/webp" />
+  <link rel="preload" as="image" href="./home-m.webp" media="(max-width: 768px)" fetchpriority="high"
     type="image/webp" />
-  <link rel="preload" as="image" href="/namma-ooru-smart/home-m.webp" media="(max-width: 768px)" fetchpriority="high"
-    type="image/webp" />
-  <script src="/namma-ooru-smart/products.js" defer></script>
-  <script type="module" crossorigin src="/namma-ooru-smart/assets/index-CEq6Yo65.js"></script>
-  <link rel="modulepreload" crossorigin href="/namma-ooru-smart/assets/react-vendor-BxThA0WO.js">
-  <link rel="modulepreload" crossorigin href="/namma-ooru-smart/assets/motion-vendor-CiUMCFyd.js">
-  <link rel="modulepreload" crossorigin href="/namma-ooru-smart/assets/icons-vendor-Bp2BR30p.js">
-  <link rel="stylesheet" crossorigin href="/namma-ooru-smart/assets/index-BzsCXzX2.css">
+  <script src="./products.js" defer></script>
+  <script type="module" crossorigin src="/namma-ooru-smart-Gliffy.X-/assets/index-DtP4Xw_z.js"></script>
+  <link rel="modulepreload" crossorigin href="/namma-ooru-smart-Gliffy.X-/assets/react-vendor-BxThA0WO.js">
+  <link rel="modulepreload" crossorigin href="/namma-ooru-smart-Gliffy.X-/assets/motion-vendor-CiUMCFyd.js">
+  <link rel="modulepreload" crossorigin href="/namma-ooru-smart-Gliffy.X-/assets/icons-vendor-Bp2BR30p.js">
+  <link rel="stylesheet" crossorigin href="/namma-ooru-smart-Gliffy.X-/assets/index-BzsCXzX2.css">
 </head>
 
 <body class="bg-white overflow-x-hidden">
@@ -29,7 +28,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
+        navigator.serviceWorker.register('./sw.js')
           .then(reg => console.log('SW registered'))
           .catch(err => console.log('SW registration failed'));
       });
