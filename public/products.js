@@ -660,13 +660,13 @@ Supports Mobile, Desktop, and Laptop
 
 ✔ Indoor & Outdoor Use:
 Weather-Resistant Design for All Environments`,
-        image: '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
+        image: '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar%20camera/solar_camera_3mp_plus_3mp/h1.webp',
         images: [
-            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h1.webp',
-            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h2.webp',
-            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h3.webp',
-            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h4.webp',
-            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar camera/solar_camera_3mp_plus_3mp/h5.webp'
+            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar%20camera/solar_camera_3mp_plus_3mp/h1.webp',
+            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar%20camera/solar_camera_3mp_plus_3mp/h2.webp',
+            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar%20camera/solar_camera_3mp_plus_3mp/h3.webp',
+            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar%20camera/solar_camera_3mp_plus_3mp/h4.webp',
+            '/namma-ooru-smart-Gliffy.X-/ASSETS/Solar%20camera/solar_camera_3mp_plus_3mp/h5.webp'
         ],
         features: [
             '4G Cellular (No WiFi)',
