@@ -2,13 +2,13 @@ import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App, { ToastProvider } from './App.jsx'
 import './index.css'
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/namma-ooru-smart-Gliffy.X-">
+    <HashRouter>
       <ToastProvider>
         <App />
       </ToastProvider>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 )
