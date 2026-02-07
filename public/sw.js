@@ -1,11 +1,13 @@
 // Simple service worker for caching assets
-const CACHE_NAME = 'namma-ooru-v3';
+const CACHE_NAME = 'namma-ooru-v4';
 const urlsToCache = [
-    '/',
-    '/index.html',
-    '/home.jpg',
-    '/home-m.jpg',
-    '/products.js',
+    './',
+    './index.html',
+    './home.jpg',
+    './home.webp',
+    './home-m.jpg',
+    './home-m.webp',
+    './products.js',
 ];
 
 self.addEventListener('install', (event) => {

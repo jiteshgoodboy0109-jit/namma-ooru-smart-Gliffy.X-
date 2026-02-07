@@ -7,9 +7,9 @@ export default function Hero({ onExplore }) {
       {/* Background Images */}
       <div className="absolute inset-0 overflow-hidden">
         <picture className="w-full h-full relative z-0">
-          <source media="(max-width: 768px)" srcSet="/home-m.webp" type="image/webp" />
+          <source media="(max-width: 768px)" srcSet="home-m.webp" type="image/webp" />
           <img
-            src="/home.jpg"
+            src="home.jpg"
             alt="Smart Home Energy"
             className="w-full h-full object-cover opacity-100"
             loading="eager"
