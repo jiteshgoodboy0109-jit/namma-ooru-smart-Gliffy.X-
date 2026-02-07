@@ -12,7 +12,7 @@ const ProductsPage = memo(() => {
 
     const categories = useMemo(() => [
         'All',
-        ...Object.values(window.CATEGORIES || {})
+        ...Object.values(CATEGORIES || {})
     ], [])
 
     const filteredProducts = useMemo(() =>
