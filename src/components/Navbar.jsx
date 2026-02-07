@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X, ShoppingCart, ArrowRight, Search, User, ChevronDown } from 'lucide-react'
 // 🖼️ CHANGE LOGO HERE: Update the path inside the quotes.
 import logo from '../assets/images/logo_new.png'
+import '../styles/Navbar.css'
 // const logo = '/logo_new.png'
 export default function Navbar({ scrolled, cartCount, isMenuOpen, setIsMenuOpen, onCartOpen, onNavigate, lang, shopName }) {
   const navItems = [
