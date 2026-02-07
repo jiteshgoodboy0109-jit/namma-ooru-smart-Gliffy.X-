@@ -1,8 +1,7 @@
 // Simple service worker for caching assets
-const CACHE_NAME = 'namma-ooru-v4';
+const CACHE_NAME = 'namma-ooru-v5';
 const urlsToCache = [
     './',
-    './index.html',
     './home.jpg',
     './home.webp',
     './home-m.jpg',
