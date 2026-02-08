@@ -276,49 +276,6 @@ export const PRODUCTS = [
         rating: 4.8,
         reviewCount: 42
     },
-    // ========== SOLAR OFF-GRID ==========
-    {
-        id: 'luminous-solar-1kva',
-        name: "LUMINOUS Solar 1KVA PCU",
-        category: CATEGORIES.SOLAR_WATER_HEATER,
-        price: "Contact for Price",
-        mrp: "₹10,499",
-        savings: "₹2,500",
-        description: "Off-Grid Solar PCU. Complete solar power control unit for home use.",
-        image: logo, // Placeholder
-        images: [logo], // Placeholder
-        features: ["1 KVA", "Off-Grid", "Solar PCU"],
-        specifications: {
-            "Capacity": "1 KVA",
-            "Type": "Off-Grid PCU",
-            "Efficiency": "92%",
-            "Warranty": "2 Years"
-        },
-        badges: ["Energy Independent", "Solar Ready", "Complete Solution"],
-        rating: 4,
-        reviewCount: 12
-    },
-    {
-        id: 'luminous-solar-2kva',
-        name: "LUMINOUS Solar 2KVA PCU",
-        category: CATEGORIES.SOLAR_WATER_HEATER,
-        price: "Contact for Price",
-        mrp: "₹10,499",
-        savings: "₹2,500",
-        description: "Off-Grid Solar PCU. Medium capacity for residential solar systems.",
-        image: logo, // Placeholder
-        images: [logo], // Placeholder
-        features: ["2 KVA", "Off-Grid", "Solar PCU"],
-        specifications: {
-            "Capacity": "2 KVA",
-            "Type": "Off-Grid PCU",
-            "Efficiency": "93%",
-            "Warranty": "2 Years"
-        },
-        badges: ["Residential", "Energy Independent", "Reliable"],
-        rating: 5,
-        reviewCount: 11
-    },
     // ========== HEAT PUMP WATER HEATER ==========
     {
         id: 'heat-pump-200l',
