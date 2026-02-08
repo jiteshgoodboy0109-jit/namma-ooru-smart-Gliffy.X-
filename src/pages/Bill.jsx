@@ -169,7 +169,7 @@ Authorized Signatory
                 <p className="text-slate-500 font-medium">#{invoiceNumber}</p>
               </div>
               <div className="text-left md:text-right flex flex-col items-start md:items-end w-full md:w-auto">
-                <img src="/log png.png" alt="Logo" className="h-20 w-auto mb-2 object-contain" />
+                <img src="./logo_new.png" alt="Logo" className="h-20 w-auto mb-2 object-contain" />
                 <h2 className="text-xl font-bold text-slate-800 uppercase tracking-tight">{companyData.name}</h2>
                 <p className="text-xs text-slate-500 font-bold uppercase tracking-widest mb-1">{companyData.tagline}</p>
                 <p className="text-sm text-slate-600">Ph: {companyData.mobile}</p>
@@ -248,7 +248,7 @@ Authorized Signatory
 
           </div>
         </motion.div>
-      </div>
-    </div>
+      </div >
+    </div >
   )
 }
