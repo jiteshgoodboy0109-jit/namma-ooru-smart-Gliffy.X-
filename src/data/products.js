@@ -79,8 +79,6 @@ import cctv8nos3 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8no
 import cctv8nos4 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k4.webp';
 
 // Placeholder
-import logo from '../assets/images/logo.png';
-
 export const CATEGORIES = {
     WATER_PURIFIER: 'Water Purifier',
     WATER_SOFTENER: 'Water Softener',
