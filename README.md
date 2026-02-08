@@ -15,8 +15,8 @@ Welcome! This guide is designed to help you easily manage and edit the website. 
 ## 📦 Project Structure
 Here are the most important files you will need to edit:
 
-- **`public/products.js`**: Contains all the products displayed on the website. **(Edit this to add/remove products)**.
-- **`public/` folder**: Place all your images here.
+- **`src/data/products.js`**: Contains all the products displayed on the website. **(Edit this to add/remove products)**.
+- **`src/assets/images/` folder**: Place all your images here.
 - **`src/components/Navbar.jsx`**: Edit this to change the **Logo** or **Menu** names.
 - **`src/components/ContactSection.jsx`**: Edit this to change **Address, Phone Numbers, and Email**.
 - **`src/components/Footer.jsx`**: Edit this to change the bottom footer links and copyright info.
@@ -24,7 +24,7 @@ Here are the most important files you will need to edit:
 ---
 
 ## 🛒 How to Add a New Product
-1. Open `public/products.js`.
+1. Open `src/data/products.js`.
 2. Scroll to the top, where you will see a **Template**.
 3. Copy the template and paste it inside the `window.PRODUCTS` list.
 4. Fill in the details:
@@ -38,7 +38,7 @@ Here are the most important files you will need to edit:
 ---
 
 ## 🖼️ How to Change the Logo
-1. Put your new logo image in the `public/` folder.
+1. Put your new logo image in the `src/assets/images/` folder.
 2. Open `src/components/Navbar.jsx`.
 3. Look for this line near the top:
    ```javascript

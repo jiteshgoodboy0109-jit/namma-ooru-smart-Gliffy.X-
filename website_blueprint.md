@@ -507,7 +507,7 @@ flowchart TD
 
 ### Product Data Structure
 
-**File:** [products.js](file:///d:/Jitesh%20Projects/final%20project/namma%20ooru%20smart%20-%20Copy/public/products.js)
+**File:** [products.js](file:///d:/Jitesh%20Projects/final%20project/namma%20ooru%20smart%20-%20Copy/src/data/products.js)
 
 ```javascript
 {
@@ -753,7 +753,7 @@ flowchart TD
 - **Vercel Config:** [vercel.json](file:///d:/Jitesh%20Projects/final%20project/namma%20ooru%20smart%20-%20Copy/vercel.json)
 
 ### Data
-- **Products:** [products.js](file:///d:/Jitesh%20Projects/final%20project/namma%20ooru%20smart%20-%20Copy/public/products.js)
+- **Products:** [products.js](file:///d:/Jitesh%20Projects/final%20project/namma%20ooru%20smart%20-%20Copy/src/data/products.js)
 
 ---
 
