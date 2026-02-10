@@ -1,22 +1,39 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
+import { ViteImageOptimizer } from 'vite-plugin-image-optimizer'
 
 export default defineConfig({
   base: './',
-  plugins: [react()], server: {
+  plugins: [
+    react(),
+    ViteImageOptimizer({
+      test: /\.(jpe?g|png|gif|webp)$/i,
+      webp: {
+        quality: 85,
+      },
+      jpeg: {
+        quality: 85,
+      },
+      jpg: {
+        quality: 85,
+      },
+      png: {
+        quality: 80,
+      },
+    }),
+  ],
+  server: {
     port: 5173,
     strictPort: false
   },
   build: {
-    // Enable minification
     minify: 'terser',
     terserOptions: {
       compress: {
-        drop_console: true, // Remove console.logs in production
+        drop_console: true,
         drop_debugger: true,
       },
     },
-    // Optimize chunk size
     rollupOptions: {
       output: {
         manualChunks: {
@@ -24,12 +41,19 @@ export default defineConfig({
           'motion-vendor': ['framer-motion'],
           'icons-vendor': ['lucide-react'],
         },
+        assetFileNames: (assetInfo) => {
+          let extType = assetInfo.name.split('.').at(1);
+          if (/png|jpe?g|svg|gif|tiff|bmp|ico|webp/i.test(extType)) {
+            extType = 'images';
+          }
+          return `assets/${extType}/[name]-[hash][extname]`;
+        },
+        chunkFileNames: 'assets/js/[name]-[hash].js',
+        entryFileNames: 'assets/js/[name]-[hash].js',
       },
     },
-    // Increase chunk size warning limit
     chunkSizeWarningLimit: 1000,
   },
-  // Optimize dependencies
   optimizeDeps: {
     include: ['react', 'react-dom', 'framer-motion', 'lucide-react'],
   },

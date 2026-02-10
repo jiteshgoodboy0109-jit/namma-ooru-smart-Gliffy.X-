@@ -1,82 +1,82 @@
 // Product Images
 // Water Purifiers
-import aquaAspire1 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1.webp';
-import aquaAspire2 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a11.webp';
-import aquaAspire3 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a111.webp';
-import aquaAspire4 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1111.webp';
+import aquaAspire1 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1_thumbnail.webp';
+import aquaAspire2 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a11_thumbnail.webp';
+import aquaAspire3 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a111_thumbnail.webp';
+import aquaAspire4 from '../assets/images/products/water-purifiers/Aquaguard_Aspire_Nova_Ro_Uv_2x/a1111_thumbnail.webp';
 
-import aquaEnrich1 from '../assets/images/products/water-purifiers/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21.jpeg';
-import aquaEnrich2 from '../assets/images/products/water-purifiers/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a22.webp';
-import aquaEnrich3 from '../assets/images/products/water-purifiers/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a23.jpeg';
+import aquaEnrich1 from '../assets/images/products/water-purifiers/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a21_thumbnail.webp';
+import aquaEnrich2 from '../assets/images/products/water-purifiers/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a22_thumbnail.webp';
+import aquaEnrich3 from '../assets/images/products/water-purifiers/Aquaguard_Enrich_Victor_Ro_Uv_Mc_2x/a23_thumbnail.webp';
 
-import aquaBlaze1 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a31.webp';
-import aquaBlaze2 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a32.webp';
-import aquaBlaze3 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a33.webp';
-import aquaBlaze4 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a34.webp';
+import aquaBlaze1 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a31_thumbnail.webp';
+import aquaBlaze2 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a32_thumbnail.webp';
+import aquaBlaze3 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a33_thumbnail.webp';
+import aquaBlaze4 from '../assets/images/products/water-purifiers/Aquaguard_Blaze_Insta_Hot_Ambient/a34_thumbnail.webp';
 
-import aquaDesigno1 from '../assets/images/products/water-purifiers/Aquaguard_Designo_NXT_Under_Sink_Ro/a41.webp';
-import aquaDesigno2 from '../assets/images/products/water-purifiers/Aquaguard_Designo_NXT_Under_Sink_Ro/a42.webp';
-import aquaDesigno3 from '../assets/images/products/water-purifiers/Aquaguard_Designo_NXT_Under_Sink_Ro/a43.webp';
+import aquaDesigno1 from '../assets/images/products/water-purifiers/Aquaguard_Designo_NXT_Under_Sink_Ro/a41_thumbnail.webp';
+import aquaDesigno2 from '../assets/images/products/water-purifiers/Aquaguard_Designo_NXT_Under_Sink_Ro/a42_thumbnail.webp';
+import aquaDesigno3 from '../assets/images/products/water-purifiers/Aquaguard_Designo_NXT_Under_Sink_Ro/a43_thumbnail.webp';
 
-import aquaNova1 from '../assets/images/products/water-purifiers/Aquaguard_Nova_Ro_UV_SS/a51.webp';
-import aquaNova2 from '../assets/images/products/water-purifiers/Aquaguard_Nova_Ro_UV_SS/a52.webp';
-import aquaNova3 from '../assets/images/products/water-purifiers/Aquaguard_Nova_Ro_UV_SS/a53.webp';
+import aquaNova1 from '../assets/images/products/water-purifiers/Aquaguard_Nova_Ro_UV_SS/a51_thumbnail.webp';
+import aquaNova2 from '../assets/images/products/water-purifiers/Aquaguard_Nova_Ro_UV_SS/a52_thumbnail.webp';
+import aquaNova3 from '../assets/images/products/water-purifiers/Aquaguard_Nova_Ro_UV_SS/a53_thumbnail.webp';
 
 // Water Softeners
-import softenerAWS1 from '../assets/images/products/water-softeners/Aquaguard_AWS_I_2500_Water_Softener/b11.webp';
-import softenerAWS2 from '../assets/images/products/water-softeners/Aquaguard_AWS_I_2500_Water_Softener/b12.webp';
-import softenerAWS3 from '../assets/images/products/water-softeners/Aquaguard_AWS_I_2500_Water_Softener/b13.webp';
+import softenerAWS1 from '../assets/images/products/water-softeners/Aquaguard_AWS_I_2500_Water_Softener/b11_thumbnail.webp';
+import softenerAWS2 from '../assets/images/products/water-softeners/Aquaguard_AWS_I_2500_Water_Softener/b12_thumbnail.webp';
+import softenerAWS3 from '../assets/images/products/water-softeners/Aquaguard_AWS_I_2500_Water_Softener/b13_thumbnail.webp';
 
-import softenerAuto1 from '../assets/images/products/water-softeners/Fully_Automatic_Water_Softener_1000L_Day/b21.webp';
-import softenerAuto2 from '../assets/images/products/water-softeners/Fully_Automatic_Water_Softener_1000L_Day/b22.webp';
-import softenerAuto3 from '../assets/images/products/water-softeners/Fully_Automatic_Water_Softener_1000L_Day/b23.webp';
+import softenerAuto1 from '../assets/images/products/water-softeners/Fully_Automatic_Water_Softener_1000L_Day/b21_thumbnail.webp';
+import softenerAuto2 from '../assets/images/products/water-softeners/Fully_Automatic_Water_Softener_1000L_Day/b22_thumbnail.webp';
+import softenerAuto3 from '../assets/images/products/water-softeners/Fully_Automatic_Water_Softener_1000L_Day/b23_thumbnail.webp';
 
 // Inverters
-import luminousUPS1 from '../assets/images/products/inverters/1050_UPS_150Ah_Battery_Luminous_e/e11.webp';
-import luminousUPS2 from '../assets/images/products/inverters/1050_UPS_150Ah_Battery_Luminous_e/e12.webp';
-import luminousUPS3 from '../assets/images/products/inverters/1050_UPS_150Ah_Battery_Luminous_e/e13.webp';
+import luminousUPS1 from '../assets/images/products/inverters/1050_UPS_150Ah_Battery_Luminous_e/e11_thumbnail.webp';
+import luminousUPS2 from '../assets/images/products/inverters/1050_UPS_150Ah_Battery_Luminous_e/e12_thumbnail.webp';
+import luminousUPS3 from '../assets/images/products/inverters/1050_UPS_150Ah_Battery_Luminous_e/e13_thumbnail.webp';
 
-import exideUPS1 from '../assets/images/products/inverters/1050UPS_150Ah_Battery_Exide_f/f11.webp';
-import exideUPS2 from '../assets/images/products/inverters/1050UPS_150Ah_Battery_Exide_f/f12.webp';
-import exideUPS3 from '../assets/images/products/inverters/1050UPS_150Ah_Battery_Exide_f/f13.webp';
+import exideUPS1 from '../assets/images/products/inverters/1050UPS_150Ah_Battery_Exide_f/f11_thumbnail.webp';
+import exideUPS2 from '../assets/images/products/inverters/1050UPS_150Ah_Battery_Exide_f/f12_thumbnail.webp';
+import exideUPS3 from '../assets/images/products/inverters/1050UPS_150Ah_Battery_Exide_f/f13_thumbnail.webp';
 
-import luminousOptimus1 from '../assets/images/products/inverters/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11.webp';
-import luminousOptimus2 from '../assets/images/products/inverters/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g12.webp';
-import luminousOptimus3 from '../assets/images/products/inverters/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g13.webp';
+import luminousOptimus1 from '../assets/images/products/inverters/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g11_thumbnail.webp';
+import luminousOptimus2 from '../assets/images/products/inverters/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g12_thumbnail.webp';
+import luminousOptimus3 from '../assets/images/products/inverters/Luminous Optimus 1250 inverter & 150Ah Battery 48m/g13_thumbnail.webp';
 
 // Robotics
-import robotAuto1 from '../assets/images/products/robotics/c11.webp';
-import robotAuto2 from '../assets/images/products/robotics/c12.webp';
-import robotAuto3 from '../assets/images/products/robotics/c13.webp';
-import robotAuto4 from '../assets/images/products/robotics/c14.webp';
-import robotAuto5 from '../assets/images/products/robotics/c15.webp';
+import robotAuto1 from '../assets/images/products/robotics/c11_thumbnail.webp';
+import robotAuto2 from '../assets/images/products/robotics/c12_thumbnail.webp';
+import robotAuto3 from '../assets/images/products/robotics/c13_thumbnail.webp';
+import robotAuto4 from '../assets/images/products/robotics/c14_thumbnail.webp';
+import robotAuto5 from '../assets/images/products/robotics/c15_thumbnail.webp';
 
-import robotNuo1 from '../assets/images/products/robotics/d11.webp';
-import robotNuo2 from '../assets/images/products/robotics/d12.webp';
-import robotNuo3 from '../assets/images/products/robotics/d13.webp';
-import robotNuo4 from '../assets/images/products/robotics/d14.webp';
-import robotNuo5 from '../assets/images/products/robotics/d15.webp';
+import robotNuo1 from '../assets/images/products/robotics/d11_thumbnail.webp';
+import robotNuo2 from '../assets/images/products/robotics/d12_thumbnail.webp';
+import robotNuo3 from '../assets/images/products/robotics/d13_thumbnail.webp';
+import robotNuo4 from '../assets/images/products/robotics/d14_thumbnail.webp';
+import robotNuo5 from '../assets/images/products/robotics/d15_thumbnail.webp';
 
 // Cameras
-import solarCam3mp1 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h1.webp';
-import solarCam3mp2 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h2.webp';
-import solarCam3mp3 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h3.webp';
-import solarCam3mp4 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h4.webp';
-import solarCam3mp5 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h5.webp';
+import solarCam3mp1 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h1_thumbnail.webp';
+import solarCam3mp2 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h2_thumbnail.webp';
+import solarCam3mp3 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h3_thumbnail.webp';
+import solarCam3mp4 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h4_thumbnail.webp';
+import solarCam3mp5 from '../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h5_thumbnail.webp';
 
-import solarCam4mp1 from '../assets/images/products/cameras/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1.webp';
-import solarCam4mp2 from '../assets/images/products/cameras/Solar Camera 4MP 4G Battery Camera with Solar Panel/I2.webp';
-import solarCam4mp3 from '../assets/images/products/cameras/Solar Camera 4MP 4G Battery Camera with Solar Panel/I3.webp';
+import solarCam4mp1 from '../assets/images/products/cameras/Solar Camera 4MP 4G Battery Camera with Solar Panel/I1_thumbnail.webp';
+import solarCam4mp2 from '../assets/images/products/cameras/Solar Camera 4MP 4G Battery Camera with Solar Panel/I2_thumbnail.webp';
+import solarCam4mp3 from '../assets/images/products/cameras/Solar Camera 4MP 4G Battery Camera with Solar Panel/I3_thumbnail.webp';
 
-import cctv4nos1 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j1.webp';
-import cctv4nos2 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j2.webp';
-import cctv4nos3 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j3.webp';
-import cctv4nos4 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j4.webp';
+import cctv4nos1 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j1_thumbnail.webp';
+import cctv4nos2 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j2_thumbnail.webp';
+import cctv4nos3 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j3_thumbnail.webp';
+import cctv4nos4 from '../assets/images/products/cameras/2mp Cctv IP Cameras 4nos/j4_thumbnail.webp';
 
-import cctv8nos1 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k1.webp';
-import cctv8nos2 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k2.webp';
-import cctv8nos3 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k3.webp';
-import cctv8nos4 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k4.webp';
+import cctv8nos1 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k1_thumbnail.webp';
+import cctv8nos2 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k2_thumbnail.webp';
+import cctv8nos3 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k3_thumbnail.webp';
+import cctv8nos4 from '../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k4_thumbnail.webp';
 
 // Placeholder
 export const CATEGORIES = {

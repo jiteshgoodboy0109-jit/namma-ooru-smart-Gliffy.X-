@@ -56,7 +56,7 @@ const ProductsPage = memo(() => {
                             <ImageWithFallback
                                 src={product.image}
                                 alt={product.name}
-                                loading={index < 6 ? "eager" : "lazy"}
+                                loading={index < 12 ? "eager" : "lazy"}
                                 className="w-full h-full transform group-hover:scale-105 transition-transform duration-500"
                             />
                             <div className="absolute top-2 left-2 z-20 bg-white/90 backdrop-blur-sm text-slate-900 text-[8px] md:text-[10px] font-bold px-2 py-1 rounded-full uppercase tracking-wider">
