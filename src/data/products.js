@@ -283,8 +283,8 @@ export const PRODUCTS = [
         mrp: '₹85,000',
         savings: '₹20,000',
         description: `Energy efficient heat pump water heater for residential use. Uses air-to-water heat transfer technology to save up to 70% on electricity bills.`,
-        image: logo, // Placeholder
-        images: [logo], // Placeholder
+        image: aquaAspire1, // Placeholder - TODO: Add proper heat pump image
+        images: [aquaAspire1], // Placeholder - TODO: Add proper heat pump image
         features: ['70% Energy Saving', 'Quick Heating', 'LCD Display'],
         specifications: { Capacity: '200L', Type: 'Air Source', Warranty: '2 Years' },
         badges: ['Energy Efficient', 'Smart Eco'],
@@ -300,8 +300,8 @@ export const PRODUCTS = [
         mrp: '₹4,500',
         savings: '₹1,501',
         description: `Full HD 1080p Smart WiFi Security Camera with night vision, motion detection, and two-way audio.`,
-        image: logo, // Placeholder
-        images: [logo], // Placeholder
+        image: aquaAspire1, // Placeholder - TODO: Add proper camera image
+        images: [aquaAspire1], // Placeholder - TODO: Add proper camera image
         features: ['1080p HD', 'Night Vision', 'Motion Detection'],
         specifications: { Resolution: '1080p', Storage: 'Micro SD Slot', Audio: 'Two-way' },
         badges: ['Bestseller', 'Easy Setup'],

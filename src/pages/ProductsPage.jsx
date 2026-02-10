@@ -3,11 +3,13 @@ import { motion } from 'framer-motion'
 import { Plus } from 'lucide-react'
 import SectionTitle from '../components/SectionTitle.jsx'
 import ImageWithFallback from '../components/ImageWithFallback.jsx'
+import ProductDetailModal from '../components/ProductDetailModal.jsx'
 import { PRODUCTS, CATEGORIES } from '../data/products'
 import { useCart } from '../context/CartContext'
 
 const ProductsPage = memo(() => {
     const [filterCategory, setFilterCategory] = useState('All')
+    const [selectedProduct, setSelectedProduct] = useState(null)
     const { addToCart } = useCart()
 
     const categories = useMemo(() => [
@@ -47,6 +49,7 @@ const ProductsPage = memo(() => {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true, margin: "100px" }}
                         id={`product-card-${product.id}`}
+                        onClick={() => setSelectedProduct(product)}
                         className="group rounded-3xl overflow-hidden bg-white border border-slate-100 shadow-md hover:shadow-xl transition-all duration-200 flex flex-col cursor-pointer will-change-transform"
                     >
                         <div className="aspect-square relative bg-gray-50 overflow-hidden">
@@ -82,6 +85,13 @@ const ProductsPage = memo(() => {
                     </motion.div>
                 ))}
             </div>
+
+            <ProductDetailModal
+                product={selectedProduct}
+                isOpen={!!selectedProduct}
+                onClose={() => setSelectedProduct(null)}
+                onAddToCart={addToCart}
+            />
         </section>
     )
 })

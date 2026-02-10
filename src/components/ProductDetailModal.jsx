@@ -175,7 +175,14 @@ export default function ProductDetailModal({ product, isOpen, onClose, onAddToCa
                   )}
                   <div className="mb-4 sm:mb-6">
                     <h3 className="text-xs sm:text-sm font-semibold text-slate-900 uppercase tracking-wide mb-2 sm:mb-3">Description</h3>
-                    <p className="text-slate-700 leading-relaxed text-sm sm:text-base font-normal whitespace-pre-line">{product.description}</p>
+                    <div className="text-slate-700 leading-relaxed text-sm sm:text-base font-normal">
+                      {product.description.split('\\n').map((line, index) => (
+                        <span key={index}>
+                          {line}
+                          {index < product.description.split('\\n').length - 1 && <br />}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                   {product.features && product.features.length > 0 && (
                     <div className="mb-4 sm:mb-6">
