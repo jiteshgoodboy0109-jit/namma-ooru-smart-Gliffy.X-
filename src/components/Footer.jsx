@@ -30,7 +30,35 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#0f172a] text-white py-10 relative overflow-hidden font-sans border-t border-slate-800">
+    <>
+      {/* ── CRAFTED BY STRIP ── */}
+      <div className="bg-gradient-to-r from-[#060d1a] via-[#0a1628] to-[#060d1a] border-t border-slate-800/50 py-5 px-6">
+        <a
+          href="https://gliffy-x-studio.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex flex-col items-center gap-2 group cursor-pointer"
+          title="Visit Gliffy.X Studio"
+        >
+          {/* Label */}
+          <span className="text-slate-600 text-[10px] font-semibold tracking-[0.2em] uppercase group-hover:text-slate-400 transition-colors duration-300">
+            Website Crafted &amp; Designed by
+          </span>
+
+          {/* Divider + Logo + Divider */}
+          <div className="flex items-center gap-4 w-full max-w-sm">
+            <div className="flex-1 h-px bg-gradient-to-r from-transparent via-slate-700 to-slate-600" />
+            <img
+              src="/logo 2.png"
+              alt="Gliffy.X Studio"
+              className="h-9 sm:h-10 w-auto object-contain group-hover:scale-105 group-hover:brightness-110 transition-all duration-300 drop-shadow-md"
+            />
+            <div className="flex-1 h-px bg-gradient-to-l from-transparent via-slate-700 to-slate-600" />
+          </div>
+        </a>
+      </div>
+
+      <footer className="bg-[#0f172a] text-white py-10 relative overflow-hidden font-sans border-t border-slate-800">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-12 relative z-10">
 
         {/* Main 4-Column Grid */}
@@ -73,13 +101,34 @@ export default function Footer() {
               Connect With Us
             </h3>
             <div className="flex items-center gap-4">
-              <a href="#" className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform">
+              {/* Instagram — update href to real profile once confirmed */}
+              <a
+                href="https://www.instagram.com/nammaooru.smart/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform"
+                title="Follow us on Instagram"
+              >
                 <img src={iconIg} alt="Instagram" className="w-full h-full object-cover rounded-full" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform">
+              {/* Facebook — update href to real page once confirmed */}
+              <a
+                href="https://www.facebook.com/search/top?q=namma+ooru+smart+solutions"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform"
+                title="Find us on Facebook"
+              >
                 <img src={iconFb} alt="Facebook" className="w-full h-full object-cover rounded-full" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform">
+              {/* WhatsApp — verified real number */}
+              <a
+                href="https://wa.me/918883785516?text=Hi%2C%20I%20found%20you%20on%20your%20website.%20I%20need%20more%20information."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform"
+                title="Chat with us on WhatsApp"
+              >
                 <img src={iconWa} alt="WhatsApp" className="w-full h-full object-cover rounded-full" />
               </a>
             </div>
@@ -112,14 +161,18 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom Banner */}
-        <div className="border-t border-slate-800 pt-6 mt-8 flex flex-col justify-center items-center gap-2 text-center">
-          <p className="text-slate-500 text-xs font-semibold tracking-wide">
-            &copy; {new Date().getFullYear()} Copyright Reserved by Gliffy.X Studio.
+        {/* Bottom Bar */}
+        <div className="border-t border-slate-800 pt-5 mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+
+          {/* Left — Copyright */}
+          <p className="text-slate-500 text-[12px] font-medium tracking-wide text-center">
+            &copy; {new Date().getFullYear()} Namma Ooru Smart Solutions. All rights reserved.
           </p>
+
         </div>
 
       </div>
     </footer>
+    </>
   );
 }
