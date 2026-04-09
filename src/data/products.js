@@ -62,6 +62,10 @@ import cam3mp4g1 from "../assets/images/products/cameras/3MP 4G Camera Outdoor/m
 import cam3mp4g2 from "../assets/images/products/cameras/3MP 4G Camera Outdoor/m12.webp";
 import cam3mp4g3 from "../assets/images/products/cameras/3MP 4G Camera Outdoor/m13.webp";
 
+import camRotating1 from "../assets/images/products/cameras/3MP 4G Rotating Camera/m111.webp";
+import camRotating2 from "../assets/images/products/cameras/3MP 4G Rotating Camera/m12.webp";
+import camRotating3 from "../assets/images/products/cameras/3MP 4G Rotating Camera/n11.webp";
+
 import solarCam3mp1 from "../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h1_thumbnail.webp";
 import solarCam3mp2 from "../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h2_thumbnail.webp";
 import solarCam3mp3 from "../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h3_thumbnail.webp";
@@ -378,6 +382,46 @@ export const PRODUCTS = [
     badges: ["4G Ready", "IP66 Outdoor", "Full Color Night", "CP Plus"],
     rating: 4.6,
     reviewCount: 18,
+  },
+  {
+    id: "3mp-4g-rotating-camera-cp-z32g",
+    name: "3MP 4G Rotating Camera",
+    category: CATEGORIES.CAMERA,
+    price: "₹4,500",
+    mrp: "₹5,700",
+    savings: "₹1,200",
+    description: `CP-Z32G – 3MP 4G Rotating Camera with Two-Way Audio\n\nA smart rotating outdoor security camera with 4G SIM connectivity, pan/tilt control, and advanced night vision. Designed for wide-area surveillance with human detection, lightning protection, and three night vision modes — perfect for homes, farms, shops, and remote locations.\n\n✅ Key Features:\n- RJ45 Port + 4G SIM Support (No WiFi Required)\n- Micro SD Card up to 256GB\n- Two-Way Audio Communication\n- IP66 Waterproof + 4000V Lightning Protection + Anti-Surge\n- Pan: Up to 263° | Tilt: Up to 90° | 6 Preset Positions\n- White Light & Infrared Light\n- 3 Night Vision Modes: B/W Mode / Full Colour Mode / Smart Mode\n- Human Detection: Auto white light activation on intrusion + Real-time mobile alarm push\n\n⚠️ Important Note:\n- Installation Charges: Extra\n- Memory Card: Extra\n- G.I Pipe & Civil Work: Customer Scope`,
+    image: camRotating1,
+    images: [camRotating1, camRotating2, camRotating3],
+    features: [
+      "4G SIM (No WiFi)",
+      "Pan 263° / Tilt 90°",
+      "6 Preset Positions",
+      "Two-Way Audio",
+      "256GB SD Card Support",
+      "IP66 + 4000V Lightning Protection",
+      "White Light & IR Light",
+      "3 Night Vision Modes",
+      "Human Detection",
+      "Real-Time Mobile Alerts",
+    ],
+    specifications: {
+      Model: "CP Plus CP-Z32G",
+      Resolution: "3MP",
+      Connectivity: "RJ45 + 4G SIM",
+      Audio: "Two-Way (Mic + Speaker)",
+      Storage: "Micro SD up to 256GB",
+      "Pan Range": "Up to 263°",
+      "Tilt Range": "Up to 90°",
+      "Preset Positions": "6",
+      "Night Vision Modes": "B/W / Full Colour / Smart",
+      "Light Source": "White Light + Infrared",
+      Protection: "IP66 + 4000V Lightning + Anti-Surge",
+      Detection: "Human Detection + Mobile Alerts",
+    },
+    badges: ["4G Ready", "Pan & Tilt", "Human Detection", "Lightning Proof"],
+    rating: 4.7,
+    reviewCount: 14,
   },
   // ========== ROBOTIC VACUUMS ==========
   {
