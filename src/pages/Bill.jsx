@@ -87,28 +87,46 @@ export default function Bill({ cartItems, customerInfo, onBackHome }) {
   const [pdfBlob, setPdfBlob] = useState(null);
 
   /* Build WhatsApp messages */
-  const ownerMsg = `\`\`\`
-🔔 NEW ORDER RECEIVED!
+  const ownerMsg = `🔔 *NEW ORDER RECEIVED!*
 
-      NAMMA OORU SMART SOLUTIONS
+*NAMMA OORU SMART SOLUTIONS*
 
-Inv No  : ${invoiceNumber}
-Date    : ${invoiceDate}
-Status  : UNPAID
+━━━━━━━━━━━━━━━━━━━━━━━
+*Invoice No :* ${invoiceNumber}
+*Date       :* ${invoiceDate}
+*Status     :* UNPAID
+━━━━━━━━━━━━━━━━━━━━━━━
 
-👤 CUSTOMER DETAILS
-Name    : ${customer.name}
-Phone   : ${customer.phone}
+👤 *Customer Details*
+*Name  :* ${customer.name}
+*Phone :* ${customer.phone}
 
-🛒 ORDERED PRODUCTS
-${cartItems.map((it, i) => `${i + 1}. ${it.name.substring(0, 28)} — ₹${it.price}`).join("\n")}
+━━━━━━━━━━━━━━━━━━━━━━━
 
-💰 TOTAL PAYABLE : ₹${total.toLocaleString("en-IN")}
-    In Words: ${n2w(total)} Rupees Only
+📦 *Order Details*
 
-✅ Invoice PDF auto-downloaded on customer device.
-Please confirm & process the order.
-\`\`\``.trim();
+${cartItems.map((it, i) => {
+    const price = parseFloat(it.price?.replace("₹","").replace(/,/g,"") || 0);
+    const qty   = it.quantity || 1;
+    return `${i + 1}. ${it.name}\n   Qty: ${qty}  |  ₹${(price * qty).toLocaleString("en-IN")}`;
+  }).join("\n")}
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+💰 *Total Amount : ₹${total.toLocaleString("en-IN")}*
+_In Words: ${n2w(total)} Rupees Only_
+
+━━━━━━━━━━━━━━━━━━━━━━━
+
+😊 *குறிப்பு:*
+உங்கள் ஆர்டர் எங்களுக்கு மிகவும் முக்கியமானது.
+
+📞 தயவு செய்து ஆர்டரை உறுதிப்படுத்தவும்.
+
+🙏 நன்றி! மீண்டும் உங்களை சேவை செய்ய எதிர்பார்க்கிறோம்.
+
+💙 உங்கள் நம்பிக்கையே எங்கள் வளர்ச்சி!`.trim();
+
 
   const customerMsg = `\`\`\`
 ✅ ORDER CONFIRMED!
