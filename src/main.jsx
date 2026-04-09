@@ -5,7 +5,7 @@ import "./styles/Global.css";
 import { BrowserRouter } from "react-router-dom";
 import { ToastProvider } from "./context/ToastContext";
 import { CartProvider } from "./context/CartContext";
-import { LoadingProvider } from "./context/LoadingContext";
+import { LoadingProvider } from "./context/LoadingContext.jsx";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -14,14 +14,17 @@ const ProductsPage = memo(() => {
   const { cart, addToCart, updateQuantity } = useCart();
   const { triggerLoader } = useLoading();
 
-  const openProduct = useCallback((product) => {
-    triggerLoader(700);
-    setTimeout(() => setSelectedProduct(product), 200);
-  }, [triggerLoader]);
+  const openProduct = useCallback(
+    (product) => {
+      triggerLoader(700);
+      setTimeout(() => setSelectedProduct(product), 200);
+    },
+    [triggerLoader]
+  );
 
   const categories = useMemo(
     () => ["All", ...Object.values(CATEGORIES || {})],
-    [],
+    []
   );
 
   const filteredProducts = useMemo(
@@ -29,7 +32,7 @@ const ProductsPage = memo(() => {
       filterCategory === "All"
         ? PRODUCTS
         : PRODUCTS.filter((p) => p.category === filterCategory),
-    [filterCategory],
+    [filterCategory]
   );
 
   return (
@@ -39,6 +42,7 @@ const ProductsPage = memo(() => {
         subtitle="Our premium selection of smart home essentials."
       />
 
+      {/* ── Category filter buttons ── */}
       <div className="flex flex-wrap gap-2 mb-8 justify-center">
         {categories.map((cat) => (
           <button
@@ -55,11 +59,10 @@ const ProductsPage = memo(() => {
         ))}
       </div>
 
+      {/* ── Product grid ── */}
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-3 md:gap-5 px-2 sm:px-0">
         {filteredProducts.map((product, index) => {
-          const cartItemIndex = cart.findIndex(
-            (item) => item.id === product.id,
-          );
+          const cartItemIndex = cart.findIndex((item) => item.id === product.id);
           const cartItem = cartItemIndex >= 0 ? cart[cartItemIndex] : null;
 
           return (
@@ -84,6 +87,7 @@ const ProductsPage = memo(() => {
                   {product.category}
                 </div>
               </div>
+
               <div className="p-3 md:p-5 flex flex-col flex-1">
                 <h3 className="text-sm md:text-base font-medium mb-2 text-slate-800 leading-snug flex-1">
                   {product.name}

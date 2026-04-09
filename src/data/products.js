@@ -78,6 +78,11 @@ import cctv8nos2 from "../assets/images/products/cameras/2Mp Cctv IP Cameras 8no
 import cctv8nos3 from "../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k3_thumbnail.webp";
 import cctv8nos4 from "../assets/images/products/cameras/2Mp Cctv IP Cameras 8nos/k4_thumbnail.webp";
 
+// Solar Water Heater
+import solarWH1 from "../assets/images/products/solar water heater/L1.webp";
+import solarWH2 from "../assets/images/products/solar water heater/L2.webp";
+import solarWH3 from "../assets/images/products/solar water heater/L3.WEBP";
+
 // Placeholder
 export const CATEGORIES = {
   WATER_PURIFIER: "Water Purifier",
@@ -583,5 +588,36 @@ export const PRODUCTS = [
     badges: ["CP Plus", "Smart Analytics", "8 Cameras", "Advanced Security"],
     rating: 4.9,
     reviewCount: 56,
+  },
+  // ========== SOLAR WATER HEATER ==========
+  {
+    id: "solar-water-heater-130l",
+    name: "130 Liters Solar Water Heater",
+    category: CATEGORIES.SOLAR_WATER_HEATER,
+    price: "₹23,500",
+    mrp: "₹30,000",
+    savings: "₹6,500",
+    description: `130 Liters Solar Water Heater\n\nHarness the power of the sun for unlimited hot water!\n\n✅ 10 Years Warranty\n✅ Free Installation Included\n⚠️ Delivery Charges Extra\n⚠️ Plumbing Work Charges Extra\n\nKey Highlights:\n- Capacity: 130 Litres – Ideal for 3–5 member families\n- Energy Source: 100% Solar – Zero electricity cost for heating\n- High-efficiency flat plate / evacuated tube collector\n- Suitable for all seasons and climates\n- Corrosion-resistant tank with premium insulation\n- Easy maintenance and long-lasting performance\n- Compatible with existing plumbing systems\n\nNote: Installation is free. Delivery and plumbing work charges will be communicated at the time of order based on your location.`,
+    image: solarWH1,
+    images: [solarWH1, solarWH2, solarWH3],
+    features: [
+      "130L Capacity",
+      "100% Solar Powered",
+      "10 Years Warranty",
+      "Free Installation",
+      "Zero Electricity Cost",
+    ],
+    specifications: {
+      Capacity: "130 Litres",
+      "Energy Source": "Solar",
+      "Suitable For": "3–5 Members",
+      Warranty: "10 Years",
+      Installation: "Free",
+      Delivery: "Charges Extra",
+      "Plumbing Work": "Charges Extra",
+    },
+    badges: ["10Yr Warranty", "Free Installation", "Zero Electricity"],
+    rating: 4.8,
+    reviewCount: 22,
   },
 ];
