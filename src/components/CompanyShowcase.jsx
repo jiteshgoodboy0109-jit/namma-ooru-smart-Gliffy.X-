@@ -95,7 +95,7 @@ export default function CompanyShowcase() {
   };
 
   return (
-    <section className="relative w-full h-[55vh] sm:h-[62vh] md:h-[72vh] overflow-hidden bg-black flex items-center justify-center">
+    <section className="relative w-full h-[40vh] sm:h-[62vh] md:h-[72vh] overflow-hidden bg-black flex items-center justify-center">
       {/* Background Images — slide left-to-right */}
       <AnimatePresence initial={false} custom={directionRef.current}>
         <motion.div
