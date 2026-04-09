@@ -95,7 +95,7 @@ export default function CompanyShowcase() {
   };
 
   return (
-    <section className="relative w-full h-[85vh] md:h-screen overflow-hidden bg-black flex items-center justify-center">
+    <section className="relative w-full h-[55vh] sm:h-[62vh] md:h-[72vh] overflow-hidden bg-black flex items-center justify-center">
       {/* Background Images — slide left-to-right */}
       <AnimatePresence initial={false} custom={directionRef.current}>
         <motion.div
@@ -119,33 +119,49 @@ export default function CompanyShowcase() {
         </motion.div>
       </AnimatePresence>
 
-      {/* Main Content (Center) — perfectly centered with bottom offset for mobile dots */}
-      <div className="relative z-20 w-full max-w-7xl mx-auto px-5 sm:px-8 flex flex-col items-center justify-center text-center pb-16 md:pb-0">
-        <motion.div
-          key={`headline-${activeIdx}`}
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
-          className="flex flex-col items-center gap-3 md:gap-4"
-        >
-          {/* Category label */}
-          <span className="inline-block px-3 py-1 rounded-full bg-yellow-400/15 border border-yellow-400/30 text-yellow-300 font-bold tracking-[0.2em] text-[10px] sm:text-xs md:text-sm uppercase shadow-[0_2px_12px_rgba(250,204,21,0.2)]">
-            {SLIDES[activeIdx].title}
-          </span>
+      {/* Main Content — absolutely positioned for true center */}
+      <div className="absolute inset-0 z-20 flex items-center justify-center" style={{ paddingBottom: '40px' }}>
+        <div className="w-full max-w-2xl mx-auto px-6 sm:px-10 flex flex-col items-center text-center">
+          <motion.div
+            key={`headline-${activeIdx}`}
+            initial={{ opacity: 0, y: 14 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.65, ease: [0.22, 1, 0.36, 1] }}
+            className="flex flex-col items-center w-full"
+            style={{ gap: '12px' }}
+          >
+            {/* Category label */}
+            <span className="inline-block px-3 py-1 rounded-full bg-yellow-400/15 border border-yellow-400/30 text-yellow-300 font-bold tracking-[0.2em] text-[9px] sm:text-[11px] md:text-sm uppercase shadow-[0_2px_12px_rgba(250,204,21,0.2)] mx-auto">
+              {SLIDES[activeIdx].title}
+            </span>
 
-          {/* Main headline */}
-          <h2 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-black text-white tracking-tight leading-[1.08] max-w-xs sm:max-w-2xl md:max-w-5xl" style={{ textShadow: '0 4px 24px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.9)' }}>
-            {SLIDES[activeIdx].headline}
-          </h2>
+            {/* Main headline — centered, balanced lines */}
+            <h2
+              className="text-xl sm:text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tight text-center w-full"
+              style={{
+                textShadow: '0 4px 24px rgba(0,0,0,0.8), 0 1px 4px rgba(0,0,0,0.9)',
+                lineHeight: '1.2',
+                wordBreak: 'break-word',
+                textWrap: 'balance',
+                marginTop: '4px',
+                marginBottom: '4px',
+              }}
+            >
+              {SLIDES[activeIdx].headline}
+            </h2>
 
-          {/* Accent line */}
-          <div className="h-[3px] w-14 sm:w-20 bg-yellow-400 rounded-full shadow-[0_0_12px_rgba(250,204,21,0.5)] mt-1" />
+            {/* Accent line — centered */}
+            <div className="h-[3px] w-10 sm:w-16 md:w-20 bg-yellow-400 rounded-full shadow-[0_0_12px_rgba(250,204,21,0.5)] mx-auto" />
 
-          {/* Description pill — visible on all screens */}
-          <p className="text-white/90 font-semibold tracking-[0.14em] text-[10px] sm:text-xs md:text-sm uppercase bg-black/35 backdrop-blur-sm px-4 py-1.5 rounded-full border border-white/10" style={{ textShadow: '0 1px 6px rgba(0,0,0,0.8)' }}>
-            {SLIDES[activeIdx].desc}
-          </p>
-        </motion.div>
+            {/* Description pill — centered */}
+            <p
+              className="text-white/90 font-semibold tracking-[0.12em] text-[9px] sm:text-[11px] md:text-sm uppercase bg-black/40 backdrop-blur-sm px-3 sm:px-5 py-1.5 rounded-full border border-white/10 text-center leading-relaxed mx-auto"
+              style={{ textShadow: '0 1px 6px rgba(0,0,0,0.8)', maxWidth: '92%' }}
+            >
+              {SLIDES[activeIdx].desc}
+            </p>
+          </motion.div>
+        </div>
       </div>
 
       {/* Left Vertical Navigation Menu */}
@@ -189,12 +205,12 @@ export default function CompanyShowcase() {
       </div>
 
       {/* Mobile Navigation Indicators (Bottom) */}
-      <div className="absolute bottom-8 inset-x-0 z-30 flex justify-center lg:hidden gap-3">
+      <div className="absolute bottom-5 sm:bottom-6 inset-x-0 z-30 flex justify-center lg:hidden gap-2 sm:gap-3">
         {SLIDES.map((_, idx) => (
           <button
             key={idx}
             onClick={() => goTo(idx)}
-            className={`h-1.5 transition-all duration-300 rounded-full ${idx === activeIdx ? "w-10 bg-yellow-400" : "w-4 bg-white/40"}`}
+            className={`h-1 sm:h-1.5 transition-all duration-300 rounded-full ${idx === activeIdx ? "w-8 sm:w-10 bg-yellow-400" : "w-3 sm:w-4 bg-white/40"}`}
           />
         ))}
       </div>

@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Menu,
@@ -21,6 +22,13 @@ export default function Navbar({
 }) {
   const navigate = useNavigate();
   const location = useLocation();
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const navItems = [
     { name: "Home", path: "/home" },
@@ -50,6 +58,7 @@ export default function Navbar({
   };
 
   const isHome = location.pathname === "/home";
+  const isServices = location.pathname === "/services";
   const isTransparent = isHome && !scrolled;
 
   return (

@@ -143,7 +143,7 @@ export default function ServicesPage() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen bg-white"
+      className="min-h-screen bg-white pt-20 md:pt-24"
     >
       {/* Hero Showcase */}
       <Suspense fallback={<div className="h-screen bg-black flex items-center justify-center text-yellow-400">Loading…</div>}>
