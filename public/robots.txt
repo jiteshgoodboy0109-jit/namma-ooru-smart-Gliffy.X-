@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block build artifacts
+Disallow: /assets/js/
+Disallow: /*.map$
+
+# Sitemap location
+Sitemap: https://nammaaooru.com/sitemap.xml
