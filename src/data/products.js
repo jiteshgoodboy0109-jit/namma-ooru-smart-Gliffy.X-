@@ -58,6 +58,10 @@ import robotNuo4 from "../assets/images/products/robotics/d14_thumbnail.webp";
 import robotNuo5 from "../assets/images/products/robotics/d15_thumbnail.webp";
 
 // Cameras
+import cam3mp4g1 from "../assets/images/products/cameras/3MP 4G Camera Outdoor/m11.webp";
+import cam3mp4g2 from "../assets/images/products/cameras/3MP 4G Camera Outdoor/m12.webp";
+import cam3mp4g3 from "../assets/images/products/cameras/3MP 4G Camera Outdoor/m13.webp";
+
 import solarCam3mp1 from "../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h1_thumbnail.webp";
 import solarCam3mp2 from "../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h2_thumbnail.webp";
 import solarCam3mp3 from "../assets/images/products/cameras/solar_camera_3mp_plus_3mp/h3_thumbnail.webp";
@@ -337,24 +341,43 @@ export const PRODUCTS = [
   },
   // ========== SMART CAMERAS ==========
   {
-    id: "smart-wifi-camera-1080p",
-    name: "Smart WiFi Camera 1080p",
+    id: "3mp-4g-camera-outdoor-cp-v32g",
+    name: "3MP 4G Camera Outdoor",
     category: CATEGORIES.CAMERA,
-    price: "₹2,999",
-    mrp: "₹4,500",
-    savings: "₹1,501",
-    description: `Full HD 1080p Smart WiFi Security Camera with night vision, motion detection, and two-way audio.`,
-    image: aquaAspire1, // Placeholder - TODO: Add proper camera image
-    images: [aquaAspire1], // Placeholder - TODO: Add proper camera image
-    features: ["1080p HD", "Night Vision", "Motion Detection"],
+    price: "₹4,500",
+    mrp: "₹5,500",
+    savings: "₹1,000",
+    description: `CP-V32G – 3MP 4G Camera Outdoor\n\nA powerful outdoor security camera with 4G SIM support, designed for locations without WiFi. Featuring a 1/3" 3MP CMOS sensor, IP66 weatherproofing, and three intelligent night vision modes — infrared, spotlight, and full-color — this camera delivers crystal-clear surveillance day and night.\n\n✅ Key Highlights:\n- 1/3" 3MP CMOS Image Sensor for sharp, detailed footage\n- H.265/H.264 Video Compression for efficient storage\n- Max. 15fps @ 3MP for smooth video playback\n- RJ45 Port + 4G SIM support (No WiFi Required)\n- Two-Way Audio Communication\n- Micro SD Card support up to 256GB\n- IR Night Vision Range: 20–30 Meters\n- Spotlight Range: 15 Meters\n- IP66 Weatherproof for outdoor use\n- Three Night Vision Modes: Infrared / Spotlight / Full Color — adjustable for full color at night\n\n⚠️ Important Note:\n- Installation Charges: Extra\n- Memory Card: Extra\n- G.I Pipe & Civil Work: Customer Scope`,
+    image: cam3mp4g1,
+    images: [cam3mp4g1, cam3mp4g2, cam3mp4g3],
+    features: [
+      "3MP CMOS Sensor",
+      "4G SIM (No WiFi)",
+      "H.265/H.264 Compression",
+      "Two-Way Audio",
+      "256GB SD Card Support",
+      "IR Range 20–30m",
+      "Spotlight 15m",
+      "IP66 Weatherproof",
+      "3 Night Vision Modes",
+      "Full Color Night Vision",
+    ],
     specifications: {
-      Resolution: "1080p",
-      Storage: "Micro SD Slot",
-      Audio: "Two-way",
+      Model: "CP Plus CP-V32G",
+      Resolution: "3MP (1/3\" CMOS)",
+      Compression: "H.265 / H.264",
+      "Frame Rate": "Max 15fps @ 3MP",
+      Connectivity: "RJ45 + 4G SIM",
+      Audio: "Two-Way (Mic + Speaker)",
+      Storage: "Micro SD up to 256GB",
+      "IR Range": "20–30 Meters",
+      "Spotlight Range": "15 Meters",
+      "Night Vision Modes": "IR / Spotlight / Full Color",
+      Protection: "IP66 Weatherproof",
     },
-    badges: ["Bestseller", "Easy Setup"],
-    rating: 4.5,
-    reviewCount: 50,
+    badges: ["4G Ready", "IP66 Outdoor", "Full Color Night", "CP Plus"],
+    rating: 4.6,
+    reviewCount: 18,
   },
   // ========== ROBOTIC VACUUMS ==========
   {
