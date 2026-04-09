@@ -1,9 +1,9 @@
 import { useNavigate, useLocation } from "react-router-dom";
 import { MapPin, Phone } from "lucide-react";
 import logo from "../assets/images/logo.webp";
-import iconIg from "../assets/images/icon_instagram.webp";
-import iconFb from "../assets/images/icon_facebook.webp";
-import iconWa from "../assets/images/icon_whatsapp.webp";
+import iconIg from "../assets/images/icon_instagram.png";
+import iconFb from "../assets/images/icon_facebook.png";
+import iconWa from "../assets/images/icon_whatsapp.png";
 
 export default function Footer() {
   const navigate = useNavigate();
@@ -67,7 +67,7 @@ export default function Footer() {
             {/* Column 1: Logo & Tagline */}
             <div className="flex flex-col items-start lg:pr-4">
               <button onClick={() => handleNavigate("/home")} className="mb-4 flex items-center gap-3 hover:opacity-80 transition-opacity text-left">
-                <img src={logo} alt="Namma Ooru Smart Solutions" className="w-[45px] sm:w-[55px] h-auto object-contain" />
+                <img src={logo} alt="Namma Ooru Smart Solutions" className="w-[85px] sm:w-[110px] h-auto object-contain" />
                 <div className="flex flex-col">
                   <span className="text-xl sm:text-2xl font-black tracking-tighter leading-none text-white whitespace-nowrap shopname-tamil">
                     நம்ம ஊரு
@@ -103,33 +103,33 @@ export default function Footer() {
               <div className="flex items-center gap-4">
                 {/* Instagram — update href to real profile once confirmed */}
                 <a
-                  href="https://www.instagram.com/nammaooru.smart/"
+                  href="https://www.instagram.com/namma_ooru_smart_solutions/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform"
+                  className="w-10 h-10 hover:scale-110 transition-transform"
                   title="Follow us on Instagram"
                 >
-                  <img src={iconIg} alt="Instagram" className="w-full h-full object-cover rounded-full" />
+                  <img src={iconIg} alt="Instagram" className="w-full h-full object-contain" />
                 </a>
                 {/* Facebook — update href to real page once confirmed */}
                 <a
-                  href="https://www.facebook.com/search/top?q=namma+ooru+smart+solutions"
+                  href="https://www.facebook.com/p/Namma-Ooru-Smart-Solutions-100064102116943/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform"
+                  className="w-10 h-10 hover:scale-110 transition-transform"
                   title="Find us on Facebook"
                 >
-                  <img src={iconFb} alt="Facebook" className="w-full h-full object-cover rounded-full" />
+                  <img src={iconFb} alt="Facebook" className="w-full h-full object-contain" />
                 </a>
                 {/* WhatsApp — verified real number */}
                 <a
                   href="https://wa.me/918883785516?text=Hi%2C%20I%20found%20you%20on%20your%20website.%20I%20need%20more%20information."
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full border border-white p-[1px] overflow-hidden hover:scale-110 transition-transform"
+                  className="w-10 h-10 hover:scale-110 transition-transform"
                   title="Chat with us on WhatsApp"
                 >
-                  <img src={iconWa} alt="WhatsApp" className="w-full h-full object-cover rounded-full" />
+                  <img src={iconWa} alt="WhatsApp" className="w-full h-full object-contain" />
                 </a>
               </div>
             </div>
@@ -162,9 +162,7 @@ export default function Footer() {
           </div>
 
           {/* Bottom Bar */}
-          <div className="border-t border-slate-800 pt-5 mt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-
-            {/* Left — Copyright */}
+          <div className="border-t border-slate-800 pt-5 mt-8 flex items-center justify-center">
             <p className="text-slate-500 text-[12px] font-medium tracking-wide text-center">
               &copy; {new Date().getFullYear()} Gliffy.X Studio. All rights reserved.
             </p>
@@ -176,3 +174,4 @@ export default function Footer() {
     </>
   );
 }
+
