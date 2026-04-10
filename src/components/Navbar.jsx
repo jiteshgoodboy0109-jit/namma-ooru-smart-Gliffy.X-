@@ -153,7 +153,7 @@ export default function Navbar({
                 )}
               </motion.button>
             </div>
-            <div className="flex items-center gap-4">
+            <div className="flex md:hidden items-center gap-4">
               <button
                 onClick={onCartOpen}
                 className={`relative p-2 rounded-full transition-colors hover:bg-white/10 ${isTransparent ? "text-white" : "text-slate-900 hover:bg-slate-50"

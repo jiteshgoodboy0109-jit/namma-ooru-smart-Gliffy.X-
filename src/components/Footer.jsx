@@ -67,7 +67,7 @@ export default function Footer() {
             {/* Column 1: Logo & Tagline */}
             <div className="flex flex-col items-start lg:pr-4">
               <button onClick={() => handleNavigate("/home")} className="mb-4 flex items-center gap-3 hover:opacity-80 transition-opacity text-left">
-                <img src={logo} alt="Namma Ooru Smart Solutions" className="w-[85px] sm:w-[110px] h-auto object-contain" />
+                <img src={logo} alt="Namma Ooru Smart Solutions" className="w-[60px] sm:w-[80px] h-auto object-contain" />
                 <div className="flex flex-col">
                   <span className="text-xl sm:text-2xl font-black tracking-tighter leading-none text-white whitespace-nowrap shopname-tamil">
                     நம்ம ஊரு
